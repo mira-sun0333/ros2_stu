@@ -1,0 +1,198 @@
+{
+	// Place your 全局 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+    
+    "main_cpp": {
+		"scope": "cpp",
+		"prefix": "main_ros2",
+		"body": [
+            "#include \"rclcpp/rclcpp.hpp\"",
+            "",
+            "",
+            "/*",
+            "    需求:",
+            "    流程:",
+            "        1.包含头文件",
+            "        2.初始化ros2客户端",
+            "        3.自定义节点类",
+            "            3-1创建",
+            "            3-2实现回调函数",
+            "            3-3在回调中解析并输出数据",
+            "        4.调用spin函数,并传入节点对象指针",
+            "        5.释放资源",
+            "*/",
+            "",
+            "class $1 :public rclcpp::Node{",
+            "public:",
+            "    $1(std::string str1,std::string str2):Node(str1,str2){",
+            "        RCLCPP_INFO(this->get_logger(),(str1+\"节点创建成功\").c_str());",
+            "",
+            "    }",
+            "",
+            "private:",
+            "",
+            "    //回调函数",
+            "    void callback_this(){",
+                    
+            "    }",
+            "};",
+            "",
+            "int main(int argc, char * argv[])",
+            "{",
+            "    //初始化ros2客户端",
+            "    rclcpp::init(argc,argv);",
+            "",
+            "    //调用spin函数,使用自定义类对象指针",
+            "    rclcpp::spin(std::make_shared<$1>(\"node_name\",\"namespace\"));",
+            "",
+            "    //释放资源",
+            "    rclcpp::shutdown();",
+            "    return 0;",
+
+            "}",
+		],
+		"description": "ros2的c++主函数模板"
+        },
+        
+        "main_py": {
+		"scope": "python",
+		"prefix": "main_ros2",
+		"body": [
+            "import rclpy",
+            "from rclpy.node import Node",
+            "",
+            "\"\"\"",
+            "    需求:",
+            "    流程:",
+            "        1.包含头文件",
+            "        2.初始化ros2客户端",
+            "        3.自定义节点类",
+            "            3-1创建",
+            "            3-2实现回调函数",
+            "            3-3在回调中解析并输出数据",
+            "        4.调用spin函数,并传入节点对象指针",
+            "        5.释放资源",
+            "\"\"\"",
+            "",
+            "class ${1:类名称}(Node):",
+            "    def __init__(self,str1):",
+            "        super().__init__(str1)",
+            "        self.get_logger().info(f\"成功创建节点{str1}\")",
+            "",
+            "    def call_back(self,msgs):#回调函数",
+            "        self.get_logger().info(\"数据是: %s\"%msgs.data)",
+            "",
+            "def main():",
+            "    #初始化ros2客户端",
+            "    rclpy.init()",
+            "",
+            "    #调用spin函数,传入自定义类对象",
+            "    rclpy.spin($1(\"${2:节点名称}\"))",
+            "",
+            "    #释放资源",
+            "    rclpy.shutdown()",
+            "",
+            "if __name__ == \"__main__\":",
+            "    main()"
+
+		],
+		"description": "ros2的py主函数模板"
+        },
+
+        "rosprint_cpp": {
+        	"scope": "cpp",
+        	"prefix": "rosprint",
+        	"body": [
+        		"RCLCPP_INFO(this->get_logger(),\"${1:打印内容}\",${2:调用参数});"
+        	],
+        	"description": "Log output to console"
+        },
+
+        "rosprint_py": {
+        	"scope": "python",
+        	"prefix": "rosprint",
+        	"body": [
+        		"self.get_logger().info(f\"${1:打印内容}\")"
+        	],
+        	"description": "Log output to console"
+        },
+
+        // "roslaunch_py": {
+        // 	"scope": "python",
+        // 	"prefix": "roslaunch_py",
+        // 	"body": [
+        // 		"from launch import LaunchDescription",
+        //         "from launch_ros.actions import Node",
+        //         "",
+        //         "#install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})",
+        //         "",
+        //         "def generate_launch_description():",
+        //         "    return LaunchDescription(",
+        //         "        [",
+        //         "            Node(",
+        //         "                package='cpp07_exercise',",
+        //         "                executable='exer01_publisher'",
+        //         "                # name='exer01_publisher_node'",
+        //         "            )",
+        //         "        ]",
+        //         "    )",
+        // 	],
+        // 	"description": "launch启动函数模板"
+        // },
+
+        "ros2 launch py": {
+        "prefix": "roslaunch_py",
+        "body": [
+            "#install(DIRECTORY launch DESTINATION share/\\${PROJECT_NAME})",
+            "#<exec_depend>ros2launch</exec_depend>",
+            "#from glob import glob 用于setup.py配置多个launch文件",
+            "#('share/' + package_name, glob('launch/py/*_launch.py')),",
+            "",
+            "from launch import LaunchDescription",
+            "from launch_ros.actions import Node",
+            "# 封装终端指令相关类--------------",
+            "# from launch.actions import ExecuteProcess",
+            "# from launch.substitutions import FindExecutable   #FindExecutable(name=\"ros2\")",
+            "# 参数声明与获取-----------------",
+            "# from launch.actions import DeclareLaunchArgument",
+            "# from launch.substitutions import LaunchConfiguration",
+            "# 文件包含相关-------------------",
+            "# from launch.actions import IncludeLaunchDescription",
+            "# from launch.launch_description_sources import PythonLaunchDescriptionSource",
+            "# 分组相关----------------------",
+            "# from launch_ros.actions import PushRosNamespace",
+            "# from launch.actions import GroupAction",
+            "# 事件相关----------------------",
+            "# from launch.event_handlers import OnProcessStart, OnProcessExit",
+            "# from launch.actions import ExecuteProcess, RegisterEventHandler,LogInfo",
+            "# 获取功能包下share目录路径-------",
+            "# from ament_index_python.packages import get_package_share_directory",
+            "",
+            "def generate_launch_description():",
+                "    return LaunchDescription(",
+                "        [",
+                "            Node(",
+                "                package='cpp07_exercise',",
+                "                executable='exer01_publisher'",
+                "                # name='exer01_publisher_node'",
+                "            )",
+                "        ]",
+                "    )",
+        ],
+        "description": "ros2 launch"
+    }
+}
