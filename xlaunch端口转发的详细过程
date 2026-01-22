@@ -1,0 +1,68 @@
+前提条件
+Windows 端已安装：
+XLaunch（建议通过 VcXsrv 安装，XLaunch 是其配套启动工具）
+OpenSSH 客户端（Windows 10/11 可在「设置→应用→可选功能」中安装）
+VSCode + Remote-SSH 插件（或 PuTTY，推荐 VSCode 更稳定）
+Linux 端（服务器 / 虚拟机）已配置：
+SSH 服务开启（sudo systemctl start sshd）
+X11 转发功能启用（下文步骤 2 配置）
+ROS 2 环境已安装（如 Humble）
+核心原理
+Windows 端运行 X Server（XLaunch），监听本地端口（默认 6000）
+Linux 端运行 X Client（如 rviz2），通过 SSH 隧道将图形数据转发到 Windows 的 X Server。
+SSH 端口转发会将 Linux 的 DISPLAY 环境变量映射到 Windows 的 IP。
+分步配置（VSCode 版，最推荐）
+步骤 1：Windows 端启动 XLaunch（关键！必须先开）
+双击打开 XLaunch，弹出配置向导：
+第 1 步：选择「Multiple windows」→ 下一步。
+第 2 步：选择「Start no client」→ 下一步。
+第 3 步：取消勾选「Native opengl」，勾选「Disable access control」（解决权限问题）→ 下一步。
+第 4 步：直接点击「Finish」，右下角会出现 XLaunch 图标（不要关闭）。
+❗ 注意：
+每次远程连接前都要先启动 XLaunch。
+取消「Native opengl」是解决 ROS 界面闪退的关键！
+步骤 2：Linux 端启用 X11 转发
+VSCode 连接 Linux 服务器（已配置免密登录的直接连接）。
+编辑 SSH 配置文件 /etc/ssh/sshd_config：
+sudo nano /etc/ssh/sshd_config
+找到以下配置项，修改为如下值（确保没有被 # 注释）：
+ini
+X11Forwarding yes        
+X11DisplayOffset 10        
+X11UseLocalhost yes       
+AllowTcpForwarding yes    
+保存退出（Ctrl+O → 回车 → Ctrl+X），重启 SSH 服务：
+sudo systemctl restart sshd
+步骤 3：VSCode 配置 Remote-SSH 端口转发
+打开 VSCode → 快捷键 Ctrl+Shift+P → 输入 Remote-SSH: Open SSH Configuration File → 选择 ~/.ssh/config。
+在配置文件中添加 X11 转发参数，最终配置如下：
+ini
+Host my-ros-server  # 自定义服务器名称
+    HostName 192.168.1.100  # 你的 Linux 服务器 IP
+    User chiway  # 你的 Linux 用户名
+    IdentityFile ~/.ssh/id_rsa  # 免密登录的私钥路径
+    ForwardX11 yes  # 启用 X11 转发（核心！）
+    ForwardX11Trusted yes  # 信任 X11 转发，避免权限问题
+保存配置 → 重新连接服务器（VSCode 左下角 → 关闭远程连接 → 重新选择 my-ros-server 连接）。
+步骤 4：验证 X11 转发是否生效
+在 VSCode 的 Linux 终端中输入以下命令，检查 DISPLAY 环境变量：
+echo $DISPLAY
+正常输出：localhost:10.0（10 对应步骤 2 的 X11DisplayOffset）
+无输出 / 空值：配置失败，需重新检查步骤 2 和 3。
+测试图形化程序（Linux 端需安装 x11-apps）：
+sudo apt install x11-apps -y
+xeyes  # 弹出眼睛窗口，跟随鼠标移动 → 成功！
+测试 ROS 2 图形界面：
+source /opt/ros/humble/setup.bash
+rviz2  # 成功启动 RViz2 并在 Windows 显示 → 配置完成！
+常见问题排查
+1. xeyes 报错 Can't open display: localhost:10.0
+原因 1：XLaunch 未启动 → 重新启动 XLaunch，确保勾选「Disable access control」。
+原因 2：Linux 端 sshd_config 未配置 → 重新检查步骤 2，重启 sshd 服务。
+原因 3：防火墙拦截 → Linux 端关闭防火墙：sudo ufw disable。
+2. RViz2 启动后闪退 / 黑屏
+原因：XLaunch 勾选了「Native opengl」→ 重新启动 XLaunch，取消该选项。
+解决：ROS 图形界面对 OpenGL 兼容性要求高，禁用原生 OpenGL 可避免渲染冲突。
+3. VSCode 连接后 DISPLAY 变量为空
+原因：~/.ssh/config 中未加 ForwardX11 yes → 补充配置后重新连接。
+验证：连接后手动导出变量：export DISPLAY=localhost:10.0 → 再测试 xeyes
