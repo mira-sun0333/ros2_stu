@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo"
+    ],
+    "python.analysis.extraPaths":[
+        "/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo"
+    ],
+    "cmake.sourceDirectory": "/home/abc/ws01_plumbing/src/base_interfaces_demo"
+        
+    
+}
