@@ -1,0 +1,49 @@
+[0.560s] Invoking command in '/home/abc/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/abc/ws01_plumbing/build/py01_topic/build install --record /home/abc/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.860s] running egg_info
+[0.861s] creating ../../build/py01_topic/py01_topic.egg-info
+[0.861s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.862s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.882s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] creating /home/abc/ws01_plumbing/build/py01_topic/build
+[0.882s] creating /home/abc/ws01_plumbing/build/py01_topic/build/lib
+[0.882s] creating /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.882s] copying py01_topic/demo02_listener_str_py.py -> /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.882s] copying py01_topic/demo03_talker_stu_py.py -> /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.883s] copying py01_topic/demo04_listener_stu_py.py -> /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.883s] copying py01_topic/__init__.py -> /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.883s] copying py01_topic/demo01_talker_str_py.py -> /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.883s] running install
+[0.883s] running install_lib
+[0.886s] creating /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] copying /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo02_listener_str_py.py -> /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] copying /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu_py.py -> /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] copying /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo04_listener_stu_py.py -> /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] copying /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] copying /home/abc/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.886s] byte-compiling /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_listener_str_py.py to demo02_listener_str_py.cpython-310.pyc
+[0.886s] byte-compiling /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py to demo03_talker_stu_py.cpython-310.pyc
+[0.886s] /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py:38: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+[0.886s]   self.get_logger().info("学生数据是: (%s,%d,%.2f)" (stu.name,stu.agae,stu.height))
+[0.886s] byte-compiling /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_listener_stu_py.py to demo04_listener_stu_py.cpython-310.pyc
+[0.887s] byte-compiling /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.887s] byte-compiling /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[0.887s] running install_data
+[0.888s] creating /home/abc/ws01_plumbing/install/py01_topic/share/ament_index
+[0.888s] creating /home/abc/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[0.888s] creating /home/abc/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.889s] copying resource/py01_topic -> /home/abc/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.889s] copying package.xml -> /home/abc/ws01_plumbing/install/py01_topic/share/py01_topic
+[0.889s] running install_egg_info
+[0.889s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.889s] running install_scripts
+[0.920s] Installing demo01_talker_str_py script to /home/abc/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.920s] Installing demo02_listener_str_py script to /home/abc/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.920s] writing list of installed files to '/home/abc/ws01_plumbing/build/py01_topic/install.log'
+[0.963s] Invoked command in '/home/abc/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/abc/ws01_plumbing/build/py01_topic/build install --record /home/abc/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

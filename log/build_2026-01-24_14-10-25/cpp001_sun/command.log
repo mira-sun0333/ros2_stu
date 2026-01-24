@@ -1,0 +1,6 @@
+Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp001_sun -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp001_sun
+Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp001_sun -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp001_sun
+Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp001_sun -- -j4 -l4
+Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp001_sun -- -j4 -l4
+Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp001_sun
+Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp001_sun

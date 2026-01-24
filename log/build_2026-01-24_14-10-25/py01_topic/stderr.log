@@ -1,0 +1,2 @@
+/home/abc/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py:38: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info("学生数据是: (%s,%d,%.2f)" (stu.name,stu.agae,stu.height))

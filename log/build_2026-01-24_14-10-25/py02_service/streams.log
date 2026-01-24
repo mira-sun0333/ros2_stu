@@ -1,0 +1,41 @@
+[0.788s] Invoking command in '/home/abc/ws01_plumbing/src/py02_service': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/abc/ws01_plumbing/build/py02_service/build install --record /home/abc/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed install_data
+[1.345s] running egg_info
+[1.350s] creating ../../build/py02_service/py02_service.egg-info
+[1.351s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[1.353s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[1.356s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[1.356s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[1.356s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[1.356s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[1.359s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[1.364s] running build
+[1.364s] running build_py
+[1.366s] creating /home/abc/ws01_plumbing/build/py02_service/build
+[1.368s] creating /home/abc/ws01_plumbing/build/py02_service/build/lib
+[1.369s] creating /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service
+[1.369s] copying py02_service/demo02_client_py.py -> /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service
+[1.372s] copying py02_service/__init__.py -> /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service
+[1.374s] copying py02_service/demo01_server_py.py -> /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service
+[1.376s] running install
+[1.378s] running install_lib
+[1.384s] creating /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[1.385s] copying /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[1.394s] copying /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service/__init__.py -> /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[1.400s] copying /home/abc/ws01_plumbing/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[1.402s] byte-compiling /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-310.pyc
+[1.410s] byte-compiling /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/__init__.py to __init__.cpython-310.pyc
+[1.412s] byte-compiling /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+[1.416s] running install_data
+[1.417s] creating /home/abc/ws01_plumbing/install/py02_service/share/ament_index
+[1.417s] creating /home/abc/ws01_plumbing/install/py02_service/share/ament_index/resource_index
+[1.417s] creating /home/abc/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[1.418s] copying resource/py02_service -> /home/abc/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[1.418s] copying package.xml -> /home/abc/ws01_plumbing/install/py02_service/share/py02_service
+[1.422s] running install_egg_info
+[1.430s] Copying ../../build/py02_service/py02_service.egg-info to /home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[1.437s] running install_scripts
+[1.475s] Installing demo01_server_py script to /home/abc/ws01_plumbing/install/py02_service/lib/py02_service
+[1.475s] Installing demo02_client_py script to /home/abc/ws01_plumbing/install/py02_service/lib/py02_service
+[1.475s] writing list of installed files to '/home/abc/ws01_plumbing/build/py02_service/install.log'
+[1.527s] Invoked command in '/home/abc/ws01_plumbing/src/py02_service' returned '0': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/abc/ws01_plumbing/build/py02_service/build install --record /home/abc/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed install_data

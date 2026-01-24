@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000716] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000775] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000801] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000823] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000846] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000916] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001006] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001016] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.001023] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.001030] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.001037] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.001044] (-) JobUnselected: {'identifier': 'py05_names'}
+[0.001051] (-) JobUnselected: {'identifier': 'py06_time'}
+[0.001079] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001086] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.001114] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/abc/ws01_plumbing/install/base_interfaces_demo'), ('turtlesim', '/home/abc/ws01_plumbing/install/turtlesim')])}
+[0.001167] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.019264] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.020649] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.020707] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ws01_plumbing/build/cpp07_exercise', '--', '-j4', '-l4'], 'cwd': '/home/abc/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62489 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4907f2bc-8a5f-4947-b32a-7b523daa278e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-eb3adf4cb764e782.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/abc/.vscode-server/data/User/workspaceStorage/20b236a14418f8956cef225c8512416f-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-91c7b8982f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ws01_plumbing/build/cpp07_exercise'), ('SSH_CONNECTION', '192.168.150.1 62489 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.084899] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer04_action_server\x1b[0m\n'}
+[0.087183] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer02_server\x1b[0m\n'}
+[0.087342] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer01_pub_sub\x1b[0m\n'}
+[0.087403] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer03_client\x1b[0m\n'}
+[0.101121] (-) TimerEvent: {}
+[0.103541] (cpp07_exercise) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o\x1b[0m\n'}
+[0.104412] (cpp07_exercise) StdoutLine: {'line': b'[ 30%] Built target exer03_client\n'}
+[0.112774] (cpp07_exercise) StdoutLine: {'line': b'[ 50%] Built target exer02_server\n'}
+[0.114789] (cpp07_exercise) StdoutLine: {'line': b'[ 70%] Built target exer01_pub_sub\n'}
+[0.128013] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer05_action_client\x1b[0m\n'}
+[0.140547] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] Built target exer05_action_client\n'}
+[0.201248] (-) TimerEvent: {}
+[0.302243] (-) TimerEvent: {}
+[0.405128] (-) TimerEvent: {}
+[0.506421] (-) TimerEvent: {}
+[0.607017] (-) TimerEvent: {}
+[0.707749] (-) TimerEvent: {}
+[0.808906] (-) TimerEvent: {}
+[0.909402] (-) TimerEvent: {}
+[1.009946] (-) TimerEvent: {}
+[1.111213] (-) TimerEvent: {}
+[1.211911] (-) TimerEvent: {}
+[1.312703] (-) TimerEvent: {}
+[1.413161] (-) TimerEvent: {}
+[1.513913] (-) TimerEvent: {}
+[1.614879] (-) TimerEvent: {}
+[1.715942] (-) TimerEvent: {}
+[1.816897] (-) TimerEvent: {}
+[1.917892] (-) TimerEvent: {}
+[2.019318] (-) TimerEvent: {}
+[2.120856] (-) TimerEvent: {}
+[2.221581] (-) TimerEvent: {}
+[2.323282] (-) TimerEvent: {}
+[2.424225] (-) TimerEvent: {}
+[2.525282] (-) TimerEvent: {}
+[2.625627] (-) TimerEvent: {}
+[2.726155] (-) TimerEvent: {}
+[2.826879] (-) TimerEvent: {}
+[2.927357] (-) TimerEvent: {}
+[3.027936] (-) TimerEvent: {}
+[3.128467] (-) TimerEvent: {}
+[3.228932] (-) TimerEvent: {}
+[3.329474] (-) TimerEvent: {}
+[3.430172] (-) TimerEvent: {}
+[3.530977] (-) TimerEvent: {}
+[3.632006] (-) TimerEvent: {}
+[3.732723] (-) TimerEvent: {}
+[3.833162] (-) TimerEvent: {}
+[3.933781] (-) TimerEvent: {}
+[4.034824] (-) TimerEvent: {}
+[4.135814] (-) TimerEvent: {}
+[4.236609] (-) TimerEvent: {}
+[4.337268] (-) TimerEvent: {}
+[4.438024] (-) TimerEvent: {}
+[4.538747] (-) TimerEvent: {}
+[4.639383] (-) TimerEvent: {}
+[4.739906] (-) TimerEvent: {}
+[4.840773] (-) TimerEvent: {}
+[4.941353] (-) TimerEvent: {}
+[5.042021] (-) TimerEvent: {}
+[5.142427] (-) TimerEvent: {}
+[5.242952] (-) TimerEvent: {}
+[5.343560] (-) TimerEvent: {}
+[5.444078] (-) TimerEvent: {}
+[5.544567] (-) TimerEvent: {}
+[5.645007] (-) TimerEvent: {}
+[5.745546] (-) TimerEvent: {}
+[5.846198] (-) TimerEvent: {}
+[5.947111] (-) TimerEvent: {}
+[6.048089] (-) TimerEvent: {}
+[6.148746] (-) TimerEvent: {}
+[6.249492] (-) TimerEvent: {}
+[6.350053] (-) TimerEvent: {}
+[6.451346] (-) TimerEvent: {}
+[6.552209] (-) TimerEvent: {}
+[6.652745] (-) TimerEvent: {}
+[6.753396] (-) TimerEvent: {}
+[6.854344] (-) TimerEvent: {}
+[6.955217] (-) TimerEvent: {}
+[7.056129] (-) TimerEvent: {}
+[7.156457] (-) TimerEvent: {}
+[7.256912] (-) TimerEvent: {}
+[7.357796] (-) TimerEvent: {}
+[7.458586] (-) TimerEvent: {}
+[7.542091] (cpp07_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer04_action_server\x1b[0m\n'}
+[7.558848] (-) TimerEvent: {}
+[7.659169] (-) TimerEvent: {}
+[7.759650] (-) TimerEvent: {}
+[7.860175] (-) TimerEvent: {}
+[7.874173] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer04_action_server\n'}
+[7.885132] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[7.885810] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[7.893834] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ws01_plumbing/build/cpp07_exercise'], 'cwd': '/home/abc/ws01_plumbing/build/cpp07_exercise', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62489 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4907f2bc-8a5f-4947-b32a-7b523daa278e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abc/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-eb3adf4cb764e782.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/abc/.vscode-server/data/User/workspaceStorage/20b236a14418f8956cef225c8512416f-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-91c7b8982f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ws01_plumbing/build/cpp07_exercise'), ('SSH_CONNECTION', '192.168.150.1 62489 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[7.900312] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.900787] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[7.900877] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server\n'}
+[7.901181] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client\n'}
+[7.901218] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server\n'}
+[7.904990] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server" to ""\n'}
+[7.906109] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client\n'}
+[7.906174] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[7.906207] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py\n'}
+[7.906234] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[7.906265] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py\n'}
+[7.906290] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py\n'}
+[7.906315] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py\n'}
+[7.906339] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[7.906366] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[7.906390] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[7.906414] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[7.906438] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[7.906463] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[7.906487] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[7.906510] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[7.906659] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[7.906711] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[7.907970] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[7.908018] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[7.908049] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[7.908077] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[7.908108] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[7.908994] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[7.923541] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[7.923954] (-) EventReactorShutdown: {}

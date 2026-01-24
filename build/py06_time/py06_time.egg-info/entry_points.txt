@@ -1,0 +1,3 @@
+[console_scripts]
+demo01_time_py = py06_time.demo01_time_py:main
+

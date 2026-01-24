@@ -1,0 +1,8 @@
+[01m[K/home/abc/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[01m[K/home/abc/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:22:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kage[m[K’
+   22 |     TalkerStu():Node("talkerstu_node_cpp")[01;31m[Kage[m[K(0){
+      |                                           [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76：CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker_stu.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,82 @@
+[0.039s] Invoking command in '/home/abc/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp04_param
+[0.454s] -- The C compiler identification is GNU 11.4.0
+[0.454s] -- The CXX compiler identification is GNU 11.4.0
+[0.510s] -- Detecting C compiler ABI info
+[0.735s] -- Detecting C compiler ABI info - done
+[0.758s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.758s] -- Detecting C compile features
+[0.758s] -- Detecting C compile features - done
+[0.769s] -- Detecting CXX compiler ABI info
+[0.974s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.025s] -- Detecting CXX compile features
+[1.025s] -- Detecting CXX compile features - done
+[1.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.282s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.478s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.594s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.611s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.629s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.866s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.871s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.093s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.154s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.171s] -- Looking for pthread.h
+[2.282s] -- Looking for pthread.h - found
+[2.282s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.372s] -- Found Threads: TRUE  
+[2.505s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.666s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.667s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/abc/ws01_plumbing/src/cpp04_param/include>
+[2.667s] -- Configured cppcheck exclude dirs and/or files: 
+[2.671s] -- Added test 'lint_cmake' to check CMake code style
+[2.672s] -- Added test 'uncrustify' to check C / C++ code style
+[2.672s] -- Configured uncrustify additional arguments: 
+[2.673s] -- Added test 'xmllint' to check XML markup files
+[2.675s] -- Configuring done
+[2.695s] -- Generating done
+[2.708s] -- Build files have been written to: /home/abc/ws01_plumbing/build/cpp04_param
+[2.745s] Invoked command in '/home/abc/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp04_param
+[2.756s] Invoking command in '/home/abc/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[2.802s] [ 16%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[2.803s] [ 33%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[2.806s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[28.796s] [ 66%] [32m[1mLinking CXX executable demo01_param_server[0m
+[28.998s] [01m[K/home/abc/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kbool ParamClient::connect_server()[m[K’:
+[29.002s] [01m[K/home/abc/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:49:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[29.003s]    49 |     [01;35m[K}[m[K
+[29.007s]       |     [01;35m[K^[m[K
+[29.060s] [ 66%] Built target demo01_param_server
+[29.798s] [ 83%] [32m[1mLinking CXX executable demo02_param_client[0m
+[30.038s] [ 83%] Built target demo02_param_client
+[30.263s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[30.374s] [100%] Built target demo00_param
+[30.433s] Invoked command in '/home/abc/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[30.445s] Invoking command in '/home/abc/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp04_param
+[30.462s] -- Install configuration: ""
+[30.464s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[30.464s] -- Set runtime path of "/home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[30.465s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[30.467s] -- Set runtime path of "/home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[30.467s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[30.467s] -- Set runtime path of "/home/abc/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[30.467s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[30.468s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[30.470s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[30.471s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[30.471s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[30.471s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[30.471s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[30.471s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[30.472s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[30.472s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[30.473s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[30.474s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[30.474s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[30.475s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[30.475s] -- Installing: /home/abc/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[30.485s] Invoked command in '/home/abc/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp04_param

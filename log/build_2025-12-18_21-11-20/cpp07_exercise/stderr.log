@@ -1,0 +1,21 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer02_server.cpp:1[m[K:
+[01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer02_server.cpp:[m[K In member function ‘[01m[Kvoid Exer02Server::distance_cb(base_interfaces_demo::srv::Distance_Request_<std::allocator<void> >::SharedPtr, base_interfaces_demo::srv::Distance_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer02_server.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   57 |         [01;35m[K"目标点的坐标(%.2f,%.2f),原生乌龟的坐标(%.2f,%.2f),二者距离(%.2f,%.2f)"[m[K,
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer02_server.cpp:57:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   57 |         "目标点的坐标(%.2f,%.2f),原生乌龟的坐标(%.2f,%.2f),二者距离(%.2f,[01;36m[K%.2f[m[K)",
+      |                                                                          [01;36m[K~~~^[m[K
+      |                                                                             [01;36m[K|[m[K
+      |                                                                             [01;36m[Kdouble[m[K

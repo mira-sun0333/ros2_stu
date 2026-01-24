@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc7f47ca7ffc9b6f72a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp01_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp01_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp01_topic_uninstall-b8d6c263b2d4d9b54224.json",
+					"name" : "cpp01_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_talker_str::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_talker_str-f96b7c93253d20061efe.json",
+					"name" : "demo01_talker_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_listener_str::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_listener_str-51dee080bdb36d8ea7a6.json",
+					"name" : "demo02_listener_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo03_talker_stu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo03_talker_stu-38610d7dba012a05bb26.json",
+					"name" : "demo03_talker_stu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo04_listener_stu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo04_listener_stu-e4cf8356044d51a420e5.json",
+					"name" : "demo04_listener_stu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ecb4b39ad755ea661a7d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abc/ws01_plumbing/build/cpp01_topic",
+		"source" : "/home/abc/ws01_plumbing/src/cpp01_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

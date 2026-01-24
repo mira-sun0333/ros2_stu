@@ -1,0 +1,44 @@
+[0.023s] Invoking command in '/home/abc/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp07_exercise -- -j4 -l4
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[0.157s] [ 16%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[0.164s] [ 83%] Built target exer02_server
+[0.165s] [ 83%] Built target exer01_pub_sub
+[2.377s] [01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.377s] [01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:37:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.377s]    37 |     float [01;35m[Kgoal_x[m[K = atof(argv[1]);
+[2.377s]       |           [01;35m[K^~~~~~[m[K
+[2.377s] [01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:38:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.377s]    38 |     float [01;35m[Kgoal_y[m[K = atof(argv[2]);
+[2.377s]       |           [01;35m[K^~~~~~[m[K
+[2.377s] [01m[K/home/abc/ws01_plumbing/src/cpp07_exercise/src/exer03_client.cpp:39:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.377s]    39 |     float [01;35m[Kgoal_theta[m[K = atof(argv[3]);
+[2.377s]       |           [01;35m[K^~~~~~~~~~[m[K
+[2.872s] [100%] [32m[1mLinking CXX executable exer03_client[0m
+[3.069s] [100%] Built target exer03_client
+[3.081s] Invoked command in '/home/abc/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp07_exercise -- -j4 -l4
+[3.093s] Invoking command in '/home/abc/ws01_plumbing/build/cpp07_exercise': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp07_exercise
+[3.101s] -- Install configuration: ""
+[3.103s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[3.104s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[3.104s] -- Installing: /home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[3.105s] -- Set runtime path of "/home/abc/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client" to ""
+[3.105s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[3.105s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[3.106s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[3.106s] -- Installing: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[3.107s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[3.107s] -- Installing: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[3.108s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[3.108s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[3.108s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[3.108s] -- Up-to-date: /home/abc/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[3.110s] Invoked command in '/home/abc/ws01_plumbing/build/cpp07_exercise' returned '0': AMENT_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/turtlesim:/home/abc/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ws01_plumbing/install/turtlesim/lib:/home/abc/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abc/ws01_plumbing/install/turtlesim/local/lib/python3.10/dist-packages:/home/abc/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp07_exercise

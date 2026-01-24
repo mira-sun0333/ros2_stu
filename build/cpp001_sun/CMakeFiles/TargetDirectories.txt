@@ -1,0 +1,9 @@
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/uninstall.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/cpp001_sun_uninstall.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/test.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/edit_cache.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/rebuild_cache.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/list_install_components.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/install.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/install/local.dir
+/home/abc/ws01_plumbing/build/cpp001_sun/CMakeFiles/install/strip.dir

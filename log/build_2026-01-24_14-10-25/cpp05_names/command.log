@@ -1,0 +1,6 @@
+Invoking command in '/home/abc/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp05_names
+Invoked command in '/home/abc/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp05_names
+Invoking command in '/home/abc/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp05_names -- -j4 -l4
+Invoked command in '/home/abc/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp05_names -- -j4 -l4
+Invoking command in '/home/abc/ws01_plumbing/build/cpp05_names': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp05_names
+Invoked command in '/home/abc/ws01_plumbing/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp05_names

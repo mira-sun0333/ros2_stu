@@ -1,0 +1,42 @@
+[0.041s] Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp001_sun -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp001_sun
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.952s] -- The CXX compiler identification is GNU 11.4.0
+[1.021s] -- Detecting C compiler ABI info
+[1.735s] -- Detecting C compiler ABI info - done
+[1.752s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.752s] -- Detecting C compile features
+[1.753s] -- Detecting C compile features - done
+[1.768s] -- Detecting CXX compiler ABI info
+[2.024s] -- Detecting CXX compiler ABI info - done
+[2.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.031s] -- Detecting CXX compile features
+[2.032s] -- Detecting CXX compile features - done
+[2.045s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.205s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.061s] -- Added test 'lint_cmake' to check CMake code style
+[8.061s] -- Added test 'xmllint' to check XML markup files
+[8.069s] -- Configuring done
+[8.075s] -- Generating done
+[8.083s] -- Build files have been written to: /home/abc/ws01_plumbing/build/cpp001_sun
+[8.209s] Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/cpp001_sun -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/cpp001_sun
+[8.284s] Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp001_sun -- -j4 -l4
+[8.411s] Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp001_sun -- -j4 -l4
+[8.428s] Invoking command in '/home/abc/ws01_plumbing/build/cpp001_sun': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp001_sun
+[8.483s] -- Install configuration: ""
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/ament_index/resource_index/package_run_dependencies/cpp001_sun
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/ament_index/resource_index/parent_prefix_path/cpp001_sun
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/environment/ament_prefix_path.sh
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/environment/ament_prefix_path.dsv
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/environment/path.sh
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/environment/path.dsv
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/local_setup.bash
+[8.494s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/local_setup.sh
+[8.497s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/local_setup.zsh
+[8.498s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/local_setup.dsv
+[8.498s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/package.dsv
+[8.503s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/ament_index/resource_index/packages/cpp001_sun
+[8.503s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/cmake/cpp001_sunConfig.cmake
+[8.503s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/cmake/cpp001_sunConfig-version.cmake
+[8.503s] -- Installing: /home/abc/ws01_plumbing/install/cpp001_sun/share/cpp001_sun/package.xml
+[8.552s] Invoked command in '/home/abc/ws01_plumbing/build/cpp001_sun' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp001_sun

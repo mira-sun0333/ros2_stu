@@ -1,0 +1,37 @@
+[0.459s] Invoking command in '/home/abc/ws01_plumbing/src/py06_time': PYTHONPATH=/home/abc/ws01_plumbing/build/py06_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/abc/ws01_plumbing/build/py06_time/build install --record /home/abc/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.664s] creating ../../build/py06_time/py06_time.egg-info
+[0.664s] writing ../../build/py06_time/py06_time.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/py06_time/py06_time.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/py06_time/py06_time.egg-info/entry_points.txt
+[0.667s] writing requirements to ../../build/py06_time/py06_time.egg-info/requires.txt
+[0.667s] writing top-level names to ../../build/py06_time/py06_time.egg-info/top_level.txt
+[0.667s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[0.667s] reading manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[0.667s] writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] creating /home/abc/ws01_plumbing/build/py06_time/build
+[0.667s] creating /home/abc/ws01_plumbing/build/py06_time/build/lib
+[0.667s] creating /home/abc/ws01_plumbing/build/py06_time/build/lib/py06_time
+[0.668s] copying py06_time/__init__.py -> /home/abc/ws01_plumbing/build/py06_time/build/lib/py06_time
+[0.668s] copying py06_time/demo01_time_py.py -> /home/abc/ws01_plumbing/build/py06_time/build/lib/py06_time
+[0.669s] running install
+[0.670s] running install_lib
+[0.670s] creating /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[0.670s] copying /home/abc/ws01_plumbing/build/py06_time/build/lib/py06_time/__init__.py -> /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[0.670s] copying /home/abc/ws01_plumbing/build/py06_time/build/lib/py06_time/demo01_time_py.py -> /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+[0.671s] byte-compiling /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/__init__.py to __init__.cpython-310.pyc
+[0.672s] byte-compiling /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/demo01_time_py.py to demo01_time_py.cpython-310.pyc
+[0.673s] running install_data
+[0.673s] creating /home/abc/ws01_plumbing/install/py06_time/share/ament_index
+[0.673s] creating /home/abc/ws01_plumbing/install/py06_time/share/ament_index/resource_index
+[0.673s] creating /home/abc/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+[0.674s] copying resource/py06_time -> /home/abc/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+[0.674s] copying package.xml -> /home/abc/ws01_plumbing/install/py06_time/share/py06_time
+[0.675s] running install_egg_info
+[0.676s] Copying ../../build/py06_time/py06_time.egg-info to /home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info
+[0.677s] running install_scripts
+[0.693s] Installing demo01_time_py script to /home/abc/ws01_plumbing/install/py06_time/lib/py06_time
+[0.695s] writing list of installed files to '/home/abc/ws01_plumbing/build/py06_time/install.log'
+[0.718s] Invoked command in '/home/abc/ws01_plumbing/src/py06_time' returned '0': PYTHONPATH=/home/abc/ws01_plumbing/build/py06_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abc/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/abc/ws01_plumbing/build/py06_time/build install --record /home/abc/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed install_data

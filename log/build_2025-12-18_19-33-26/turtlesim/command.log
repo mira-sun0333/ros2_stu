@@ -1,0 +1,3 @@
+Invoking command in '/home/abc/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/turtlesim
+Invoked command in '/home/abc/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ws01_plumbing/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/turtlesim
+Invoking command in '/home/abc/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ws01_plumbing/build/turtlesim -- -j4 -l4
