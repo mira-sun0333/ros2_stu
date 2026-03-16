@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'Stage'}
+[0.000216] (-) JobUnselected: {'identifier': 'bridge_ign'}
+[0.000229] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.000239] (-) JobUnselected: {'identifier': 'demo_stage_sim'}
+[0.000247] (-) JobUnselected: {'identifier': 'mycar_description'}
+[0.000255] (-) JobUnselected: {'identifier': 'mycar_description_detailed'}
+[0.000263] (-) JobUnselected: {'identifier': 'stage_ros2'}
+[0.000531] (-) EventReactorShutdown: {}

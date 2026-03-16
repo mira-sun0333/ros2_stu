@@ -1,0 +1,1 @@
+Invoking command in '/home/abc/ROS2_SIM_WS/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/ira_laser_tools -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/ira_laser_tools

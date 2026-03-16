@@ -1,0 +1,277 @@
+[0.013s] Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/Stage/Stage -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage
+[0.051s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.051s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.051s]   CMake.
+[0.051s] 
+[0.051s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.051s]   CMake that the project does not need compatibility with older versions.
+[0.051s] 
+[0.051s] [0m
+[0.205s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.426s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.522s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.523s] -- Stage version 4.3.0
+[0.523s] -- Operating system is Linux
+[0.523s] -- Installing Libraries to /home/abc/ROS2_SIM_WS/install/Stage/lib
+[0.523s] -- Installing Plugins to /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3
+[0.523s] -- Build type RELEASE
+[0.523s] -- Checking for libtool
+[0.531s] -- Checking for required libraries...
+[0.571s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.579s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.589s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.595s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.595s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[0.595s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.595s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.595s]   cmake_policy command to set the policy and suppress this warning.
+[0.595s] 
+[0.595s]   FindOpenGL found both a legacy GL library:
+[0.595s] 
+[0.595s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.595s] 
+[0.595s]   and GLVND libraries for OpenGL and GLX:
+[0.596s] 
+[0.596s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.596s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.596s] 
+[0.596s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.596s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.596s] Call Stack (most recent call first):
+[0.596s]   /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)
+[0.596s]   CMakeLists.txt:100 (find_package)
+[0.596s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.596s] [0m
+[0.691s] -- Found X11: /usr/include   
+[0.693s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.748s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.748s] -- Looking for gethostbyname
+[0.798s] -- Looking for gethostbyname - found
+[0.798s] -- Looking for connect
+[0.846s] -- Looking for connect - found
+[0.846s] -- Looking for remove
+[0.891s] -- Looking for remove - found
+[0.892s] -- Looking for shmat
+[0.939s] -- Looking for shmat - found
+[0.939s] -- Looking for IceConnectionNumber in ICE
+[0.985s] -- Looking for IceConnectionNumber in ICE - found
+[0.988s] -- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  
+[0.989s] -- Checking for optional libraries...
+[0.989s] -- Installation path CMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage
+[0.990s] -- Configuring libstage
+[0.995s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.996s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.997s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[1.006s] -- Configuring done
+[1.035s] -- Generating done
+[1.039s] -- Build files have been written to: /home/abc/ROS2_SIM_WS/build/Stage
+[1.046s] Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/Stage/Stage -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage
+[1.048s] Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+[1.090s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[1.090s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[1.090s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[1.091s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[2.364s] [  8%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[2.507s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[2.669s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[2.761s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[3.694s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[3.806s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[4.227s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[4.832s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[5.448s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[5.476s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[5.562s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[6.142s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[6.554s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[6.650s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[6.713s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[7.126s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[7.280s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[7.301s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[7.600s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[8.000s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[8.047s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[8.105s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[8.439s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[8.663s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[8.890s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[8.912s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[9.690s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[9.937s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[10.114s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[10.938s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[11.043s] [ 57%] Built target stage
+[11.062s] [ 62%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[11.063s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[11.063s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[11.063s] [ 64%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[11.666s] [ 66%] [32m[1mLinking CXX shared module sink.so[0m
+[11.713s] [ 67%] [32m[1mLinking CXX shared module fasr.so[0m
+[11.720s] [ 69%] [32m[1mLinking CXX executable stage[0m
+[11.737s] [ 69%] Built target sink
+[11.755s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[11.764s] [ 72%] [32m[1mLinking CXX shared module source.so[0m
+[11.798s] [ 72%] Built target fasr
+[11.818s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[11.823s] [ 74%] Built target stagebinary
+[11.831s] [ 74%] Built target source
+[11.837s] [ 76%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[11.846s] [ 77%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[12.413s] [ 79%] [32m[1mLinking CXX shared module wander.so[0m
+[12.457s] [ 81%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[12.476s] [ 83%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[12.477s] [ 83%] Built target wander
+[12.495s] [ 86%] [32m[1mLinking CXX shared module rasterize.so[0m
+[12.495s] [ 86%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[12.552s] [ 86%] Built target pioneer_flocking
+[12.564s] [ 86%] Built target lasernoise
+[12.572s] [ 88%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[12.581s] [ 89%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[12.585s] [ 89%] Built target rasterize
+[12.593s] [ 91%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[13.131s] [ 93%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[13.147s] [ 94%] [32m[1mLinking CXX shared module dynamic.so[0m
+[13.206s] [ 94%] Built target dynamic
+[13.234s] [ 96%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[13.305s] [ 96%] Built target expand_swarm
+[13.582s] [ 98%] [32m[1mLinking CXX shared module fasr2.so[0m
+[13.653s] [ 98%] Built target fasr2
+[13.746s] [100%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[13.806s] [100%] Built target expand_pioneer
+[13.815s] Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+[13.829s] Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/Stage
+[13.835s] -- Install configuration: "RELEASE"
+[13.835s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/pkgconfig/stage.pc
+[13.835s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/cmake/Stage/stage-config.cmake
+[13.835s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[13.836s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/bin/stage
+[13.836s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/bin/stage" to ""
+[13.836s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/libstage.so.4.3.0
+[13.836s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/libstage.so
+[13.837s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/include/Stage-4.3/stage.hh
+[13.837s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr.so
+[13.837s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr.so" to ""
+[13.837s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/sink.so
+[13.837s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/sink.so" to ""
+[13.837s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/source.so
+[13.837s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/source.so" to ""
+[13.838s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/wander.so
+[13.838s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/wander.so" to ""
+[13.838s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[13.838s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[13.838s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/rasterize.so
+[13.838s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/rasterize.so" to ""
+[13.838s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/lasernoise.so
+[13.838s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/lasernoise.so" to ""
+[13.838s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/dynamic.so
+[13.839s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/dynamic.so" to ""
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr2.so
+[13.839s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr2.so" to ""
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/blue.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/death.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/green.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/logo.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/mains.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/mainspower.png
+[13.839s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/question_mark.png
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/red.png
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stagelogo.png
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stall-old.png
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stall.png
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/rgb.txt
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/rgb.txt
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/autolab.cfg
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/camera.cfg
+[13.840s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/everything.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/lsp_test.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/mbicp.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/nd.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/roomba.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/simple.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/test.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/vfh.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wavefront.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi.cfg
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/SFU.world
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/autolab.world
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/camera.world
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/circuit.world
+[13.841s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/everything.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr2.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr_plan.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/large.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/lsp_test.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/mbicp.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_flocking.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_follow.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_walle.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/roomba.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/simple.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi.world
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/beacons.inc
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/chatterbox.inc
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/hokuyo.inc
+[13.842s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/irobot.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/map.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/objects.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pantilt.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sick.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/ubot.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/walle.inc
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/cfggen.sh
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/test.sh
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/worldgen.sh
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_swarm.so
+[13.843s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[13.843s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[13.843s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/rink.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/table.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[13.844s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/commando.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[13.845s] -- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/map.inc
+[13.847s] Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/Stage

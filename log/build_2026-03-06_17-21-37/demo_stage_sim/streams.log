@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/abc/ROS2_SIM_WS/build/demo_stage_sim': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/mycar_description:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_stage_sim -- -j4 -l4
+[0.050s] Invoked command in '/home/abc/ROS2_SIM_WS/build/demo_stage_sim' returned '0': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/mycar_description:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_stage_sim -- -j4 -l4
+[0.060s] Invoking command in '/home/abc/ROS2_SIM_WS/build/demo_stage_sim': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/mycar_description:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/demo_stage_sim
+[0.067s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/launch
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/launch/sim.launch.py
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world
+[0.068s] -- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/sim_world
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/cave.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/autolab.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/space_invader.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/frieburg.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/line.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/ghost.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/simple_rooms.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/hospital_section.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/my_house.jpg
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/human_outline.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps/uoa_robotics_lab.png
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/laser.inc
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/car_base.inc
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/camera.inc
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/mycar.inc
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/package_run_dependencies/demo_stage_sim
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/parent_prefix_path/demo_stage_sim
+[0.068s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/path.sh
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/path.dsv
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.bash
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.sh
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.zsh
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.dsv
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/package.dsv
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/packages/demo_stage_sim
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/cmake/demo_stage_simConfig.cmake
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/cmake/demo_stage_simConfig-version.cmake
+[0.069s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/package.xml
+[0.072s] Invoked command in '/home/abc/ROS2_SIM_WS/build/demo_stage_sim' returned '0': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/mycar_description:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/demo_stage_sim

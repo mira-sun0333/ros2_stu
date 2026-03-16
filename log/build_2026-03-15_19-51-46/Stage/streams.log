@@ -1,0 +1,14 @@
+[0.024s] Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+[0.153s] [ 57%] Built target stage
+[0.183s] [ 61%] Built target sink
+[0.185s] [ 66%] Built target source
+[0.185s] [ 67%] Built target fasr
+[0.201s] [ 71%] Built target stagebinary
+[0.220s] [ 74%] Built target wander
+[0.230s] [ 77%] Built target rasterize
+[0.236s] [ 81%] Built target pioneer_flocking
+[0.272s] [ 84%] Built target dynamic
+[0.282s] [ 88%] Built target lasernoise
+[0.284s] [ 93%] Built target fasr2
+[0.284s] [ 96%] Built target expand_swarm
+[0.301s] [100%] Built target expand_pioneer

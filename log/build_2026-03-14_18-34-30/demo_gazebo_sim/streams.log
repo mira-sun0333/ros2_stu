@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_gazebo_sim -- -j4 -l4
+[0.047s] [0mCMake Error: The source directory "/home/abc/ROS2_SIM_WS/src/demo_gazebo_sim" does not exist.
+[0.047s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.047s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.056s] Invoked command in '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_gazebo_sim -- -j4 -l4

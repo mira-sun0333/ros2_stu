@@ -1,0 +1,27 @@
+[0.025s] Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[0.152s] [ 57%] Built target stage
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[0.190s] [ 61%] Built target fasr
+[0.195s] [ 64%] Built target sink
+[0.203s] [ 67%] Built target source
+[0.207s] [ 71%] Built target stagebinary
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[0.226s] [ 74%] Built target wander
+[0.231s] [ 77%] Built target pioneer_flocking
+[0.235s] [ 81%] Built target rasterize
+[0.237s] [ 84%] Built target lasernoise
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[0.260s] [ 88%] Built target dynamic
+[0.263s] [ 93%] Built target fasr2
+[0.267s] [ 96%] Built target expand_pioneer
+[0.270s] [100%] Built target expand_swarm

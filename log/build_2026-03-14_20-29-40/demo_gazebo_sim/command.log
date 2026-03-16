@@ -1,0 +1,2 @@
+Invoking command in '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_gazebo_sim -- -j4 -l4
+Invoked command in '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/demo_gazebo_sim -- -j4 -l4

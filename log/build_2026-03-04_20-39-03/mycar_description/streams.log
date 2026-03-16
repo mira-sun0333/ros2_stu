@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+[0.045s] Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+[0.051s] Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description
+[0.057s] -- Install configuration: ""
+[0.057s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch
+[0.057s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch/mycar_desc_sim.launch.py
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch/mycar_desc.launch.py
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/arduino.urdf
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/stm32_4w.urdf
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/stm32_2w.urdf
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh
+[0.058s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh/mycar_4w.stl
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh/mycar_2w.stl
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/package_run_dependencies/mycar_description
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/parent_prefix_path/mycar_description
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/path.sh
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/path.dsv
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.bash
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.sh
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.zsh
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.dsv
+[0.059s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/package.dsv
+[0.060s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/packages/mycar_description
+[0.060s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig.cmake
+[0.060s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig-version.cmake
+[0.060s] -- Up-to-date: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/package.xml
+[0.061s] Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description

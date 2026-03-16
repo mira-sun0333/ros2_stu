@@ -1,0 +1,4 @@
+source;share/bridge_ign/local_setup.bash
+source;share/bridge_ign/local_setup.dsv
+source;share/bridge_ign/local_setup.sh
+source;share/bridge_ign/local_setup.zsh

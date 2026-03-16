@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (-) JobUnselected: {'identifier': 'Stage'}
+[0.000412] (-) JobUnselected: {'identifier': 'demo_gazebo_sim'}
+[0.000449] (-) JobUnselected: {'identifier': 'demo_stage_sim'}
+[0.000460] (-) JobUnselected: {'identifier': 'stage_ros2'}
+[0.000619] (-) EventReactorShutdown: {}

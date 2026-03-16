@@ -1,0 +1,840 @@
+[0.000000] (-) TimerEvent: {}
+[0.000823] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000888] (demo_gazebo_sim) JobQueued: {'identifier': 'demo_gazebo_sim', 'dependencies': OrderedDict()}
+[0.000904] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage')])}
+[0.000918] (demo_stage_sim) JobQueued: {'identifier': 'demo_stage_sim', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage'), ('stage_ros2', '/home/abc/ROS2_SIM_WS/install/stage_ros2')])}
+[0.001480] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.006368] (demo_gazebo_sim) JobStarted: {'identifier': 'demo_gazebo_sim'}
+[0.010187] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.011116] (Stage) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_SIM_WS/src/sim_stage/Stage/Stage', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage'], 'cwd': '/home/abc/ROS2_SIM_WS/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage')]), 'shell': False}
+[0.014422] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'cmake'}
+[0.015752] (demo_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_SIM_WS/src/demo_gazebo_sim', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage:/opt/ros/humble')]), 'shell': False}
+[0.021789] (Stage) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.022243] (Stage) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.022468] (Stage) StderrLine: {'line': b'  CMake.\n'}
+[0.022609] (Stage) StderrLine: {'line': b'\n'}
+[0.022741] (Stage) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.022908] (Stage) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.023064] (Stage) StderrLine: {'line': b'\n'}
+[0.023326] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099972] (-) TimerEvent: {}
+[0.149459] (demo_gazebo_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.151173] (Stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200144] (-) TimerEvent: {}
+[0.262071] (demo_gazebo_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.264362] (Stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.274322] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.274532] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300422] (-) TimerEvent: {}
+[0.342317] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.347038] (demo_gazebo_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.348907] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.350095] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.351481] (Stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.353933] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.357350] (Stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.357513] (Stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.357875] (Stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.361374] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401209] (-) TimerEvent: {}
+[0.441437] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.451726] (demo_gazebo_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.451881] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.451974] (demo_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.452448] (Stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.458738] (Stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.459336] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.459456] (Stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.460107] (Stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.460206] (Stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.460243] (Stage) StdoutLine: {'line': b'-- Installing Libraries to /home/abc/ROS2_SIM_WS/install/Stage/lib\n'}
+[0.460275] (Stage) StdoutLine: {'line': b'-- Installing Plugins to /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3\n'}
+[0.461233] (Stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[0.463600] (Stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.467632] (Stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.472965] (demo_gazebo_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501920] (-) TimerEvent: {}
+[0.540190] (Stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[0.548455] (Stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.561282] (Stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.566315] (Stage) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.566469] (Stage) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.566509] (Stage) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.566538] (Stage) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.566565] (Stage) StderrLine: {'line': b'\n'}
+[0.566590] (Stage) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.566616] (Stage) StderrLine: {'line': b'\n'}
+[0.566641] (Stage) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.566665] (Stage) StderrLine: {'line': b'\n'}
+[0.566689] (Stage) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.566714] (Stage) StderrLine: {'line': b'\n'}
+[0.566738] (Stage) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.566763] (Stage) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.566787] (Stage) StderrLine: {'line': b'\n'}
+[0.566810] (Stage) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.566834] (Stage) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.566857] (Stage) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.566882] (Stage) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)\n'}
+[0.566905] (Stage) StderrLine: {'line': b'  CMakeLists.txt:100 (find_package)\n'}
+[0.566930] (Stage) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.566954] (Stage) StderrLine: {'line': b'\x1b[0m\n'}
+[0.568900] (Stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.590195] (demo_gazebo_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.602125] (-) TimerEvent: {}
+[0.639608] (Stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.640983] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.691941] (demo_gazebo_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.702594] (-) TimerEvent: {}
+[0.705664] (Stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.705850] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.760267] (Stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.760675] (Stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.769434] (demo_gazebo_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.770206] (demo_gazebo_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.770916] (demo_gazebo_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.772255] (demo_gazebo_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.774417] (demo_gazebo_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.775785] (demo_gazebo_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[0.777853] (demo_gazebo_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/demo_gazebo_sim\n'}
+[0.780524] (demo_gazebo_sim) CommandEnded: {'returncode': 0}
+[0.781461] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'build'}
+[0.781483] (demo_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage:/opt/ros/humble')]), 'shell': False}
+[0.802696] (-) TimerEvent: {}
+[0.806516] (demo_gazebo_sim) CommandEnded: {'returncode': 0}
+[0.807034] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'install'}
+[0.814143] (demo_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage:/opt/ros/humble')]), 'shell': False}
+[0.816052] (Stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.816201] (Stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.817874] (demo_gazebo_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.817945] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/launch\n'}
+[0.817978] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_car.launch.py\n'}
+[0.818299] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_demo.launch.py\n'}
+[0.818428] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_world.launch.py\n'}
+[0.818682] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/world\n'}
+[0.820206] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/world/house_add.sdf\n'}
+[0.820299] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/world/visualize_lidar.sdf\n'}
+[0.820333] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/world/house.sdf\n'}
+[0.820361] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz\n'}
+[0.820389] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz/visualize.rviz\n'}
+[0.820416] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz/ign_sim_car.rviz\n'}
+[0.820441] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/demo_gazebo_sim\n'}
+[0.820468] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/demo_gazebo_sim\n'}
+[0.820494] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.sh\n'}
+[0.820525] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.dsv\n'}
+[0.820552] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.sh\n'}
+[0.820579] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.dsv\n'}
+[0.820606] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.bash\n'}
+[0.820632] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.sh\n'}
+[0.820658] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.zsh\n'}
+[0.820682] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.dsv\n'}
+[0.820707] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv\n'}
+[0.820732] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/ament_index/resource_index/packages/demo_gazebo_sim\n'}
+[0.820756] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig.cmake\n'}
+[0.820782] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig-version.cmake\n'}
+[0.820810] (demo_gazebo_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_gazebo_sim/share/demo_gazebo_sim/package.xml\n'}
+[0.827449] (demo_gazebo_sim) CommandEnded: {'returncode': 0}
+[0.835458] (demo_gazebo_sim) JobEnded: {'identifier': 'demo_gazebo_sim', 'rc': 0}
+[0.878272] (Stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.878496] (Stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.904413] (-) TimerEvent: {}
+[0.973330] (Stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.974836] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.004611] (-) TimerEvent: {}
+[1.039453] (Stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.044430] (Stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  \n'}
+[1.047073] (Stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[1.048533] (Stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage\n'}
+[1.048688] (Stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[1.057485] (Stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.057780] (Stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[1.060251] (Stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[1.070546] (Stage) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.097282] (Stage) StdoutLine: {'line': b'-- Generating done\n'}
+[1.101187] (Stage) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/Stage\n'}
+[1.105168] (-) TimerEvent: {}
+[1.109017] (Stage) CommandEnded: {'returncode': 0}
+[1.110483] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[1.110542] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage')]), 'shell': False}
+[1.148721] (Stage) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[1.152634] (Stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[1.152874] (Stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[1.155315] (Stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[1.205285] (-) TimerEvent: {}
+[1.306450] (-) TimerEvent: {}
+[1.407555] (-) TimerEvent: {}
+[1.509496] (-) TimerEvent: {}
+[1.610350] (-) TimerEvent: {}
+[1.712015] (-) TimerEvent: {}
+[1.814488] (-) TimerEvent: {}
+[1.916467] (-) TimerEvent: {}
+[2.020836] (-) TimerEvent: {}
+[2.121337] (-) TimerEvent: {}
+[2.228055] (-) TimerEvent: {}
+[2.254988] (Stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[2.329044] (Stage) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[2.329258] (-) TimerEvent: {}
+[2.405507] (Stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[2.431150] (-) TimerEvent: {}
+[2.449979] (Stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[2.542068] (-) TimerEvent: {}
+[2.644152] (-) TimerEvent: {}
+[2.748125] (-) TimerEvent: {}
+[2.849960] (-) TimerEvent: {}
+[2.951762] (-) TimerEvent: {}
+[3.052200] (-) TimerEvent: {}
+[3.153009] (-) TimerEvent: {}
+[3.199941] (Stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[3.253335] (-) TimerEvent: {}
+[3.312496] (Stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[3.316188] (Stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[3.356871] (-) TimerEvent: {}
+[3.457579] (-) TimerEvent: {}
+[3.558101] (-) TimerEvent: {}
+[3.658406] (-) TimerEvent: {}
+[3.759012] (-) TimerEvent: {}
+[3.859675] (-) TimerEvent: {}
+[3.960173] (-) TimerEvent: {}
+[4.060841] (-) TimerEvent: {}
+[4.078826] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[4.117252] (Stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[4.161022] (-) TimerEvent: {}
+[4.206872] (Stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[4.261457] (-) TimerEvent: {}
+[4.365319] (-) TimerEvent: {}
+[4.467587] (-) TimerEvent: {}
+[4.536680] (Stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[4.570797] (-) TimerEvent: {}
+[4.671999] (-) TimerEvent: {}
+[4.773315] (-) TimerEvent: {}
+[4.874066] (-) TimerEvent: {}
+[4.915842] (Stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[4.974923] (-) TimerEvent: {}
+[5.075788] (-) TimerEvent: {}
+[5.084565] (Stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[5.125288] (Stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[5.176379] (-) TimerEvent: {}
+[5.282227] (-) TimerEvent: {}
+[5.384428] (-) TimerEvent: {}
+[5.485724] (-) TimerEvent: {}
+[5.586250] (-) TimerEvent: {}
+[5.686936] (-) TimerEvent: {}
+[5.779910] (Stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[5.788026] (-) TimerEvent: {}
+[5.888788] (-) TimerEvent: {}
+[5.962029] (Stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[5.989903] (-) TimerEvent: {}
+[6.006847] (Stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[6.082366] (Stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[6.091189] (-) TimerEvent: {}
+[6.191969] (-) TimerEvent: {}
+[6.293128] (-) TimerEvent: {}
+[6.393680] (-) TimerEvent: {}
+[6.498314] (-) TimerEvent: {}
+[6.600458] (-) TimerEvent: {}
+[6.701849] (-) TimerEvent: {}
+[6.780003] (Stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[6.802254] (-) TimerEvent: {}
+[6.903915] (-) TimerEvent: {}
+[6.914016] (Stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[7.005645] (-) TimerEvent: {}
+[7.060380] (Stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[7.104600] (-) TimerEvent: {}
+[7.206054] (-) TimerEvent: {}
+[7.309257] (-) TimerEvent: {}
+[7.410339] (-) TimerEvent: {}
+[7.433989] (Stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[7.510686] (-) TimerEvent: {}
+[7.615278] (-) TimerEvent: {}
+[7.716860] (-) TimerEvent: {}
+[7.818832] (-) TimerEvent: {}
+[7.904784] (Stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[7.920003] (-) TimerEvent: {}
+[8.021391] (-) TimerEvent: {}
+[8.036286] (Stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[8.121625] (-) TimerEvent: {}
+[8.222789] (-) TimerEvent: {}
+[8.237645] (Stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[8.251790] (Stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[8.323192] (-) TimerEvent: {}
+[8.423889] (-) TimerEvent: {}
+[8.526303] (-) TimerEvent: {}
+[8.629005] (-) TimerEvent: {}
+[8.733324] (-) TimerEvent: {}
+[8.835234] (-) TimerEvent: {}
+[8.936825] (-) TimerEvent: {}
+[9.037316] (-) TimerEvent: {}
+[9.147610] (-) TimerEvent: {}
+[9.244663] (Stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[9.248250] (-) TimerEvent: {}
+[9.352120] (-) TimerEvent: {}
+[9.453186] (-) TimerEvent: {}
+[9.534657] (Stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[9.553376] (-) TimerEvent: {}
+[9.654039] (-) TimerEvent: {}
+[9.757638] (-) TimerEvent: {}
+[9.762415] (Stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[9.858140] (-) TimerEvent: {}
+[9.959704] (-) TimerEvent: {}
+[10.060673] (-) TimerEvent: {}
+[10.164167] (-) TimerEvent: {}
+[10.264876] (-) TimerEvent: {}
+[10.365932] (-) TimerEvent: {}
+[10.466687] (-) TimerEvent: {}
+[10.568136] (-) TimerEvent: {}
+[10.605988] (Stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[10.668435] (-) TimerEvent: {}
+[10.755882] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[10.770217] (-) TimerEvent: {}
+[10.780380] (Stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[10.780590] (Stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[10.783573] (Stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[10.783996] (Stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[10.874137] (-) TimerEvent: {}
+[10.976053] (-) TimerEvent: {}
+[11.076995] (-) TimerEvent: {}
+[11.178661] (-) TimerEvent: {}
+[11.281476] (-) TimerEvent: {}
+[11.383639] (-) TimerEvent: {}
+[11.485605] (-) TimerEvent: {}
+[11.586385] (-) TimerEvent: {}
+[11.690140] (-) TimerEvent: {}
+[11.699134] (Stage) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[11.714718] (Stage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[11.787005] (Stage) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[11.790936] (-) TimerEvent: {}
+[11.801122] (Stage) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[11.884838] (Stage) StdoutLine: {'line': b'[ 71%] Built target fasr\n'}
+[11.892696] (-) TimerEvent: {}
+[11.896280] (Stage) StdoutLine: {'line': b'[ 71%] Built target source\n'}
+[11.907740] (Stage) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[11.918144] (Stage) StdoutLine: {'line': b'[ 72%] Built target stagebinary\n'}
+[11.927973] (Stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[11.931088] (Stage) StdoutLine: {'line': b'[ 74%] Built target sink\n'}
+[11.945146] (Stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[11.966345] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[11.993181] (-) TimerEvent: {}
+[12.095631] (-) TimerEvent: {}
+[12.199504] (-) TimerEvent: {}
+[12.303612] (-) TimerEvent: {}
+[12.408754] (-) TimerEvent: {}
+[12.509893] (-) TimerEvent: {}
+[12.612011] (-) TimerEvent: {}
+[12.715029] (-) TimerEvent: {}
+[12.817810] (-) TimerEvent: {}
+[12.863925] (Stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[12.919036] (-) TimerEvent: {}
+[12.953045] (Stage) StdoutLine: {'line': b'[ 79%] Built target wander\n'}
+[13.000056] (Stage) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[13.013954] (Stage) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[13.022182] (-) TimerEvent: {}
+[13.066063] (Stage) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[13.103530] (Stage) StdoutLine: {'line': b'[ 84%] Built target pioneer_flocking\n'}
+[13.119771] (Stage) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[13.122496] (-) TimerEvent: {}
+[13.165240] (Stage) StdoutLine: {'line': b'[ 86%] Built target rasterize\n'}
+[13.202177] (Stage) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[13.205394] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[13.230464] (-) TimerEvent: {}
+[13.289292] (Stage) StdoutLine: {'line': b'[ 89%] Built target lasernoise\n'}
+[13.329739] (Stage) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[13.330667] (-) TimerEvent: {}
+[13.431122] (-) TimerEvent: {}
+[13.536835] (-) TimerEvent: {}
+[13.639087] (-) TimerEvent: {}
+[13.742621] (-) TimerEvent: {}
+[13.845262] (-) TimerEvent: {}
+[13.947740] (-) TimerEvent: {}
+[14.048797] (-) TimerEvent: {}
+[14.103742] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[14.149400] (-) TimerEvent: {}
+[14.251155] (-) TimerEvent: {}
+[14.259285] (Stage) StdoutLine: {'line': b'[ 93%] Built target dynamic\n'}
+[14.274511] (Stage) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[14.293400] (Stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[14.351791] (-) TimerEvent: {}
+[14.422592] (Stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[14.455531] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[14.456244] (-) TimerEvent: {}
+[14.557891] (-) TimerEvent: {}
+[14.608272] (Stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[14.658117] (-) TimerEvent: {}
+[14.758640] (-) TimerEvent: {}
+[14.859492] (-) TimerEvent: {}
+[14.953938] (Stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[14.959640] (-) TimerEvent: {}
+[15.027495] (Stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[15.035241] (Stage) CommandEnded: {'returncode': 0}
+[15.036423] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[15.037463] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ROS2_SIM_WS/build/Stage'], 'cwd': '/home/abc/ROS2_SIM_WS/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/home/abc/ROS2_SIM_WS/install/Stage')]), 'shell': False}
+[15.042326] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[15.042493] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/pkgconfig/stage.pc\n'}
+[15.042549] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[15.042625] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[15.042862] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/bin/stage\n'}
+[15.042993] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/bin/stage" to ""\n'}
+[15.043057] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/libstage.so.4.3.0\n'}
+[15.043582] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/libstage.so\n'}
+[15.043668] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/include/Stage-4.3/stage.hh\n'}
+[15.044041] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[15.044167] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[15.044207] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/sink.so\n'}
+[15.044394] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/sink.so" to ""\n'}
+[15.044507] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/source.so\n'}
+[15.044575] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/source.so" to ""\n'}
+[15.044610] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/wander.so\n'}
+[15.044705] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/wander.so" to ""\n'}
+[15.044745] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[15.044962] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[15.045058] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[15.045123] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[15.045160] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[15.045233] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[15.045269] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[15.045475] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[15.045549] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[15.046235] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[15.046284] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/blue.png\n'}
+[15.047477] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/death.png\n'}
+[15.048177] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/green.png\n'}
+[15.048488] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/logo.png\n'}
+[15.048892] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/mains.png\n'}
+[15.049715] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/mainspower.png\n'}
+[15.050282] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/question_mark.png\n'}
+[15.050988] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/red.png\n'}
+[15.052168] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stagelogo.png\n'}
+[15.052592] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stall-old.png\n'}
+[15.053147] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/stall.png\n'}
+[15.053677] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/assets/rgb.txt\n'}
+[15.054166] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/rgb.txt\n'}
+[15.054625] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[15.054905] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[15.055251] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/camera.cfg\n'}
+[15.055700] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/everything.cfg\n'}
+[15.056043] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[15.056348] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[15.056715] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/nd.cfg\n'}
+[15.057070] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[15.057326] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/simple.cfg\n'}
+[15.057610] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/test.cfg\n'}
+[15.057833] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[15.058059] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[15.058330] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[15.058617] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[15.058876] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[15.059129] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/SFU.world\n'}
+[15.059382] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/autolab.world\n'}
+[15.059714] (-) TimerEvent: {}
+[15.059964] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/camera.world\n'}
+[15.060320] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/circuit.world\n'}
+[15.060633] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/everything.world\n'}
+[15.060920] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr.world\n'}
+[15.061390] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr2.world\n'}
+[15.061752] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[15.062005] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/large.world\n'}
+[15.062195] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[15.062370] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/mbicp.world\n'}
+[15.062633] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[15.062928] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[15.063110] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[15.063367] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/roomba.world\n'}
+[15.063574] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[15.063911] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[15.064191] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/simple.world\n'}
+[15.064467] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[15.064770] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi.world\n'}
+[15.065009] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/beacons.inc\n'}
+[15.065268] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[15.065580] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[15.066117] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/irobot.inc\n'}
+[15.066526] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/map.inc\n'}
+[15.066919] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/objects.inc\n'}
+[15.067108] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[15.067290] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[15.067534] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/sick.inc\n'}
+[15.067842] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/ubot.inc\n'}
+[15.068107] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[15.068384] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/walle.inc\n'}
+[15.068714] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[15.069375] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/test.sh\n'}
+[15.069570] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[15.071267] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[15.071599] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[15.071638] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[15.071672] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[15.071703] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[15.071733] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[15.071821] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[15.073280] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[15.073388] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[15.073429] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[15.073463] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[15.073530] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[15.074201] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[15.074264] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[15.074641] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[15.074703] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[15.074744] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[15.075193] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[15.075323] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[15.075381] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[15.075423] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[15.075935] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[15.076006] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[15.076040] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[15.076072] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[15.076609] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[15.076718] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[15.077006] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[15.077050] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[15.077118] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[15.077543] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[15.077668] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[15.077976] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[15.078083] (Stage) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[15.082699] (Stage) CommandEnded: {'returncode': 0}
+[15.090371] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[15.090979] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[15.100019] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[15.100668] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/stage_ros2'], 'cwd': '/home/abc/ROS2_SIM_WS/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[15.151567] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[15.160539] (-) TimerEvent: {}
+[15.198791] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[15.204815] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[15.261663] (-) TimerEvent: {}
+[15.262320] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.267406] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[15.268220] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.268412] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.273721] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.344415] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.349886] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.350886] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.351016] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.352035] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.361870] (-) TimerEvent: {}
+[15.462617] (-) TimerEvent: {}
+[15.471165] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.532923] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.562873] (-) TimerEvent: {}
+[15.589840] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.595775] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.607154] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.625368] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.642923] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.662991] (-) TimerEvent: {}
+[15.697735] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.702592] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.763321] (-) TimerEvent: {}
+[15.785408] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.805911] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[15.832820] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.844583] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.863670] (-) TimerEvent: {}
+[15.894855] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.895184] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.951065] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[15.952630] (stage_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.963833] (-) TimerEvent: {}
+[16.019495] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.057795] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.064857] (-) TimerEvent: {}
+[16.095112] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[16.120287] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[16.165161] (-) TimerEvent: {}
+[16.202401] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[16.217302] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[16.218958] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[16.219132] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[16.221966] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[16.238195] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.265497] (-) TimerEvent: {}
+[16.305324] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.305742] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2/./include;$<BUILD_INTERFACE:/home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2/include>\n'}
+[16.305803] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.306303] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.307109] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.307602] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.309644] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.309731] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.310077] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.311297] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.328845] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[16.331688] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/stage_ros2\n'}
+[16.339398] (stage_ros2) CommandEnded: {'returncode': 0}
+[16.340589] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[16.340880] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[16.365737] (-) TimerEvent: {}
+[16.375624] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[16.375819] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[16.375911] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[16.379809] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[16.465887] (-) TimerEvent: {}
+[16.566241] (-) TimerEvent: {}
+[16.666764] (-) TimerEvent: {}
+[16.767482] (-) TimerEvent: {}
+[16.871318] (-) TimerEvent: {}
+[16.973129] (-) TimerEvent: {}
+[17.073922] (-) TimerEvent: {}
+[17.175944] (-) TimerEvent: {}
+[17.276523] (-) TimerEvent: {}
+[17.377139] (-) TimerEvent: {}
+[17.477695] (-) TimerEvent: {}
+[17.579122] (-) TimerEvent: {}
+[17.685485] (-) TimerEvent: {}
+[17.800568] (-) TimerEvent: {}
+[17.901286] (-) TimerEvent: {}
+[18.011342] (-) TimerEvent: {}
+[18.115876] (-) TimerEvent: {}
+[18.217252] (-) TimerEvent: {}
+[18.321132] (-) TimerEvent: {}
+[18.423910] (-) TimerEvent: {}
+[18.525901] (-) TimerEvent: {}
+[18.626567] (-) TimerEvent: {}
+[18.726988] (-) TimerEvent: {}
+[18.828941] (-) TimerEvent: {}
+[18.934020] (-) TimerEvent: {}
+[19.039914] (-) TimerEvent: {}
+[19.147570] (-) TimerEvent: {}
+[19.254088] (-) TimerEvent: {}
+[19.356725] (-) TimerEvent: {}
+[19.457275] (-) TimerEvent: {}
+[19.557879] (-) TimerEvent: {}
+[19.658806] (-) TimerEvent: {}
+[19.760039] (-) TimerEvent: {}
+[19.865221] (-) TimerEvent: {}
+[19.965730] (-) TimerEvent: {}
+[20.066724] (-) TimerEvent: {}
+[20.168926] (-) TimerEvent: {}
+[20.269688] (-) TimerEvent: {}
+[20.371281] (-) TimerEvent: {}
+[20.472139] (-) TimerEvent: {}
+[20.575409] (-) TimerEvent: {}
+[20.676479] (-) TimerEvent: {}
+[20.777142] (-) TimerEvent: {}
+[20.878346] (-) TimerEvent: {}
+[20.978982] (-) TimerEvent: {}
+[21.079634] (-) TimerEvent: {}
+[21.183661] (-) TimerEvent: {}
+[21.284682] (-) TimerEvent: {}
+[21.386717] (-) TimerEvent: {}
+[21.487586] (-) TimerEvent: {}
+[21.588842] (-) TimerEvent: {}
+[21.689582] (-) TimerEvent: {}
+[21.795533] (-) TimerEvent: {}
+[21.896377] (-) TimerEvent: {}
+[22.001265] (-) TimerEvent: {}
+[22.105783] (-) TimerEvent: {}
+[22.206267] (-) TimerEvent: {}
+[22.307152] (-) TimerEvent: {}
+[22.410235] (-) TimerEvent: {}
+[22.511265] (-) TimerEvent: {}
+[22.611820] (-) TimerEvent: {}
+[22.717041] (-) TimerEvent: {}
+[22.818556] (-) TimerEvent: {}
+[22.926542] (-) TimerEvent: {}
+[23.027731] (-) TimerEvent: {}
+[23.130228] (-) TimerEvent: {}
+[23.231004] (-) TimerEvent: {}
+[23.331908] (-) TimerEvent: {}
+[23.432903] (-) TimerEvent: {}
+[23.535568] (-) TimerEvent: {}
+[23.636847] (-) TimerEvent: {}
+[23.739718] (-) TimerEvent: {}
+[23.840378] (-) TimerEvent: {}
+[23.941130] (-) TimerEvent: {}
+[24.042532] (-) TimerEvent: {}
+[24.144190] (-) TimerEvent: {}
+[24.245456] (-) TimerEvent: {}
+[24.346162] (-) TimerEvent: {}
+[24.446754] (-) TimerEvent: {}
+[24.547508] (-) TimerEvent: {}
+[24.648058] (-) TimerEvent: {}
+[24.748671] (-) TimerEvent: {}
+[24.849149] (-) TimerEvent: {}
+[24.952707] (-) TimerEvent: {}
+[25.053456] (-) TimerEvent: {}
+[25.154000] (-) TimerEvent: {}
+[25.254444] (-) TimerEvent: {}
+[25.355253] (-) TimerEvent: {}
+[25.455589] (-) TimerEvent: {}
+[25.556089] (-) TimerEvent: {}
+[25.656555] (-) TimerEvent: {}
+[25.757430] (-) TimerEvent: {}
+[25.858315] (-) TimerEvent: {}
+[25.958703] (-) TimerEvent: {}
+[26.059617] (-) TimerEvent: {}
+[26.160335] (-) TimerEvent: {}
+[26.261776] (-) TimerEvent: {}
+[26.362684] (-) TimerEvent: {}
+[26.464769] (-) TimerEvent: {}
+[26.565653] (-) TimerEvent: {}
+[26.666672] (-) TimerEvent: {}
+[26.767316] (-) TimerEvent: {}
+[26.804250] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[26.869264] (-) TimerEvent: {}
+[26.970958] (-) TimerEvent: {}
+[27.071340] (-) TimerEvent: {}
+[27.173419] (-) TimerEvent: {}
+[27.273923] (-) TimerEvent: {}
+[27.374331] (-) TimerEvent: {}
+[27.474802] (-) TimerEvent: {}
+[27.506602] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[27.525719] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[27.576619] (-) TimerEvent: {}
+[27.677273] (-) TimerEvent: {}
+[27.778650] (-) TimerEvent: {}
+[27.879160] (-) TimerEvent: {}
+[27.979775] (-) TimerEvent: {}
+[28.081811] (-) TimerEvent: {}
+[28.182166] (-) TimerEvent: {}
+[28.282922] (-) TimerEvent: {}
+[28.383824] (-) TimerEvent: {}
+[28.484719] (-) TimerEvent: {}
+[28.585452] (-) TimerEvent: {}
+[28.686011] (-) TimerEvent: {}
+[28.786498] (-) TimerEvent: {}
+[28.887127] (-) TimerEvent: {}
+[28.987783] (-) TimerEvent: {}
+[29.088207] (-) TimerEvent: {}
+[29.189208] (-) TimerEvent: {}
+[29.289809] (-) TimerEvent: {}
+[29.390286] (-) TimerEvent: {}
+[29.491044] (-) TimerEvent: {}
+[29.591852] (-) TimerEvent: {}
+[29.692381] (-) TimerEvent: {}
+[29.793002] (-) TimerEvent: {}
+[29.893499] (-) TimerEvent: {}
+[29.994578] (-) TimerEvent: {}
+[30.095136] (-) TimerEvent: {}
+[30.195786] (-) TimerEvent: {}
+[30.296518] (-) TimerEvent: {}
+[30.398182] (-) TimerEvent: {}
+[30.498986] (-) TimerEvent: {}
+[30.574045] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[30.599270] (-) TimerEvent: {}
+[30.699628] (-) TimerEvent: {}
+[30.800216] (-) TimerEvent: {}
+[30.901854] (-) TimerEvent: {}
+[30.908346] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[30.919691] (stage_ros2) CommandEnded: {'returncode': 0}
+[30.927214] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[30.927324] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ROS2_SIM_WS/build/stage_ros2'], 'cwd': '/home/abc/ROS2_SIM_WS/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[30.941850] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.942322] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[30.942944] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[30.943475] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch\n'}
+[30.943831] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch/my_house_multi.launch.py\n'}
+[30.944038] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch/my_house.launch.py\n'}
+[30.944389] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world\n'}
+[30.944580] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/my_house_multi.world\n'}
+[30.945152] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps\n'}
+[30.945539] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/cave.png\n'}
+[30.945899] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/autolab.png\n'}
+[30.946124] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/space_invader.png\n'}
+[30.946272] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/frieburg.png\n'}
+[30.946980] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/line.png\n'}
+[30.947294] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/ghost.png\n'}
+[30.947717] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/simple_rooms.png\n'}
+[30.947972] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/hospital_section.png\n'}
+[30.948322] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/my_house.jpg\n'}
+[30.949022] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/human_outline.png\n'}
+[30.949320] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/uoa_robotics_lab.png\n'}
+[30.949822] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot\n'}
+[30.950184] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/laser.inc\n'}
+[30.950467] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/car_base.inc\n'}
+[30.950836] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/camera.inc\n'}
+[30.951124] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/mycar.inc\n'}
+[30.951574] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/my_house.world\n'}
+[30.952134] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config\n'}
+[30.954918] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[30.955826] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config/rviz/example.rviz\n'}
+[30.955883] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/lib/libstage_node.so\n'}
+[30.962786] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/stage_ros2/lib/libstage_node.so" to ""\n'}
+[30.963289] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[30.963650] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_SIM_WS/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""\n'}
+[30.963816] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[30.963971] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[30.964785] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[30.965576] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[30.965716] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[30.966058] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[30.966426] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[30.966925] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[30.967074] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[30.967949] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[30.968387] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[30.968473] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[30.968525] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[30.968571] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[30.968603] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[30.972027] (stage_ros2) CommandEnded: {'returncode': 0}
+[30.994138] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[30.995884] (demo_stage_sim) JobStarted: {'identifier': 'demo_stage_sim'}
+[31.001993] (-) TimerEvent: {}
+[31.012718] (demo_stage_sim) JobProgress: {'identifier': 'demo_stage_sim', 'progress': 'cmake'}
+[31.013397] (demo_stage_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_SIM_WS/src/sim_stage/demo_stage_sim', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/demo_stage_sim'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_stage_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_stage_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[31.082047] (demo_stage_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[31.104676] (-) TimerEvent: {}
+[31.138588] (demo_stage_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[31.149270] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[31.207155] (-) TimerEvent: {}
+[31.247997] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[31.257812] (demo_stage_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[31.257980] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[31.258580] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[31.260852] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[31.307248] (-) TimerEvent: {}
+[31.355952] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[31.362181] (demo_stage_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[31.362406] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[31.362447] (demo_stage_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[31.373625] (demo_stage_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.407449] (-) TimerEvent: {}
+[31.508647] (-) TimerEvent: {}
+[31.520121] (demo_stage_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[31.608857] (-) TimerEvent: {}
+[31.616983] (demo_stage_sim) StdoutLine: {'line': b'-- Found stage_ros2: 0.0.1 (/home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/cmake)\n'}
+[31.618001] (demo_stage_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[31.709018] (demo_stage_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[31.709216] (-) TimerEvent: {}
+[31.709617] (demo_stage_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[31.710275] (demo_stage_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[31.711380] (demo_stage_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.712875] (demo_stage_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.715350] (demo_stage_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[31.716842] (demo_stage_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/demo_stage_sim\n'}
+[31.721185] (demo_stage_sim) CommandEnded: {'returncode': 0}
+[31.723674] (demo_stage_sim) JobProgress: {'identifier': 'demo_stage_sim', 'progress': 'build'}
+[31.723695] (demo_stage_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/demo_stage_sim', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_stage_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_stage_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[31.769575] (demo_stage_sim) CommandEnded: {'returncode': 0}
+[31.770925] (demo_stage_sim) JobProgress: {'identifier': 'demo_stage_sim', 'progress': 'install'}
+[31.770966] (demo_stage_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ROS2_SIM_WS/build/demo_stage_sim'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_stage_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/home/abc/ROS2_SIM_WS/install/Stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1606'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1765'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3100'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:24908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abc/ROS2_SIM_WS/install/Stage/bin:/opt/loongson-gcc/bin:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc-virtual-machine:@/tmp/.ICE-unix/1741,unix/abc-virtual-machine:/tmp/.ICE-unix/1741'), ('INVOCATION_ID', '94e6368a1b854257b6d6412a767496de'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e25601f3498d7966.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/e9b3f2e773f0ba2b1bd4756ec71c1e3d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PV1WL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b284a1f7d7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_stage_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble')]), 'shell': False}
+[31.778237] (demo_stage_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.778433] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/launch\n'}
+[31.778477] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/launch/sim.launch.py\n'}
+[31.778511] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world\n'}
+[31.778542] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/sim_world\n'}
+[31.779409] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/maps\n'}
+[31.779590] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot\n'}
+[31.779633] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/laser.inc\n'}
+[31.780021] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/car_base.inc\n'}
+[31.780184] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/camera.inc\n'}
+[31.780487] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/world/robot/mycar.inc\n'}
+[31.782111] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/package_run_dependencies/demo_stage_sim\n'}
+[31.782237] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/parent_prefix_path/demo_stage_sim\n'}
+[31.782279] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/ament_prefix_path.sh\n'}
+[31.782313] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/ament_prefix_path.dsv\n'}
+[31.782345] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/path.sh\n'}
+[31.782377] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/environment/path.dsv\n'}
+[31.782406] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.bash\n'}
+[31.782435] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.sh\n'}
+[31.782463] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.zsh\n'}
+[31.782492] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/local_setup.dsv\n'}
+[31.782550] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/package.dsv\n'}
+[31.782585] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/ament_index/resource_index/packages/demo_stage_sim\n'}
+[31.782615] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/cmake/demo_stage_simConfig.cmake\n'}
+[31.782643] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/cmake/demo_stage_simConfig-version.cmake\n'}
+[31.782672] (demo_stage_sim) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_SIM_WS/install/demo_stage_sim/share/demo_stage_sim/package.xml\n'}
+[31.785200] (demo_stage_sim) CommandEnded: {'returncode': 0}
+[31.797593] (demo_stage_sim) JobEnded: {'identifier': 'demo_stage_sim', 'rc': 0}
+[31.798250] (-) EventReactorShutdown: {}

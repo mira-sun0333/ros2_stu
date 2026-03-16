@@ -1,0 +1,115 @@
+[0.005s] Invoking command in '/home/abc/ROS2_SIM_WS/build/stage_ros2': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/stage_ros2
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.420s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.488s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.595s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.701s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.729s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.745s] -- Looking for pthread.h
+[0.806s] -- Looking for pthread.h - found
+[0.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.867s] -- Found Threads: TRUE  
+[0.946s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.987s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.028s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.049s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.140s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.154s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.156s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.156s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.158s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.173s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.245s] -- Configured cppcheck include dirs: /home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2/./include;$<BUILD_INTERFACE:/home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2/include>
+[1.245s] -- Configured cppcheck exclude dirs and/or files: 
+[1.246s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.248s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.249s] -- Added test 'uncrustify' to check C / C++ code style
+[1.249s] -- Configured uncrustify additional arguments: 
+[1.250s] -- Added test 'xmllint' to check XML markup files
+[1.251s] -- Configuring done
+[1.265s] -- Generating done
+[1.269s] -- Build files have been written to: /home/abc/ROS2_SIM_WS/build/stage_ros2
+[1.279s] Invoked command in '/home/abc/ROS2_SIM_WS/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/stage_ros2/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/stage_ros2
+[1.279s] Invoking command in '/home/abc/ROS2_SIM_WS/build/stage_ros2': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/stage_ros2 -- -j4 -l4
+[1.316s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[1.316s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[6.400s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[9.171s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[13.124s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[13.800s] [ 71%] Built target stage_node
+[13.813s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[17.643s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[17.908s] [100%] Built target stage_ros2
+[17.919s] Invoked command in '/home/abc/ROS2_SIM_WS/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/stage_ros2 -- -j4 -l4
+[17.921s] Invoking command in '/home/abc/ROS2_SIM_WS/build/stage_ros2': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/stage_ros2
+[17.926s] -- Install configuration: ""
+[17.926s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[17.926s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[17.926s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch
+[17.926s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch/my_house_multi.launch.py
+[17.927s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//launch/my_house.launch.py
+[17.927s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world
+[17.927s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/my_house_multi.world
+[17.928s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps
+[17.928s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/cave.png
+[17.928s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/autolab.png
+[17.929s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/space_invader.png
+[17.929s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/frieburg.png
+[17.930s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/line.png
+[17.930s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/ghost.png
+[17.931s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/simple_rooms.png
+[17.931s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/hospital_section.png
+[17.931s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/my_house.jpg
+[17.931s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/human_outline.png
+[17.932s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/maps/uoa_robotics_lab.png
+[17.932s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot
+[17.932s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/laser.inc
+[17.933s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/car_base.inc
+[17.933s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/camera.inc
+[17.933s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/robot/mycar.inc
+[17.934s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//world/my_house.world
+[17.934s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config
+[17.934s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config/rviz
+[17.934s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2//config/rviz/example.rviz
+[17.934s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/lib/libstage_node.so
+[17.941s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/stage_ros2/lib/libstage_node.so" to ""
+[17.941s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/lib/stage_ros2/stage_ros2
+[17.941s] -- Set runtime path of "/home/abc/ROS2_SIM_WS/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/path.sh
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.bash
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.sh
+[17.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[17.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[17.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/package.dsv
+[17.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[17.944s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[17.944s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[17.944s] -- Installing: /home/abc/ROS2_SIM_WS/install/stage_ros2/share/stage_ros2/package.xml
+[17.945s] Invoked command in '/home/abc/ROS2_SIM_WS/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/abc/ROS2_SIM_WS/install/Stage:/home/abc/ROS2_SIM_WS/install/demo_stage_sim:/home/abc/ROS2_SIM_WS/install/stage_ros2:/home/abc/ROS2_SIM_WS/install/demo_gazebo_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/abc/ROS2_SIM_WS/install/Stage/lib:/home/abc/ROS2_SIM_WS/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/stage_ros2

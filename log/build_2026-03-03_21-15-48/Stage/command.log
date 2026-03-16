@@ -1,0 +1,6 @@
+Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/Stage/Stage -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage
+Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_stage/Stage/Stage -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/Stage
+Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/Stage -- -j4 -l4
+Invoking command in '/home/abc/ROS2_SIM_WS/build/Stage': /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/Stage
+Invoked command in '/home/abc/ROS2_SIM_WS/build/Stage' returned '0': /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/Stage

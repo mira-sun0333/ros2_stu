@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000295] (bridge_ign) JobQueued: {'identifier': 'bridge_ign', 'dependencies': OrderedDict()}
+[0.000477] (demo_gazebo_sim) JobQueued: {'identifier': 'demo_gazebo_sim', 'dependencies': OrderedDict()}
+[0.000528] (ira_laser_tools) JobQueued: {'identifier': 'ira_laser_tools', 'dependencies': OrderedDict()}
+[0.000554] (mycar_description) JobQueued: {'identifier': 'mycar_description', 'dependencies': OrderedDict()}
+[0.000578] (mycar_description_detailed) JobQueued: {'identifier': 'mycar_description_detailed', 'dependencies': OrderedDict()}
+[0.000602] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage')])}
+[0.000627] (demo_stage_sim) JobQueued: {'identifier': 'demo_stage_sim', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage'), ('stage_ros2', '/home/abc/ROS2_SIM_WS/install/stage_ros2')])}
+[0.000656] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.004394] (bridge_ign) JobStarted: {'identifier': 'bridge_ign'}
+[0.006262] (demo_gazebo_sim) JobStarted: {'identifier': 'demo_gazebo_sim'}
+[0.008801] (ira_laser_tools) JobStarted: {'identifier': 'ira_laser_tools'}
+[0.012089] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.012777] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[0.013462] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/Stage'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.017089] (bridge_ign) JobProgress: {'identifier': 'bridge_ign', 'progress': 'cmake'}
+[0.017662] (bridge_ign) JobProgress: {'identifier': 'bridge_ign', 'progress': 'build'}
+[0.019324] (bridge_ign) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/bridge_ign', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/bridge_ign', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/bridge_ign'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.020924] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'cmake'}
+[0.021550] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'build'}
+[0.021592] (demo_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.028336] (ira_laser_tools) JobProgress: {'identifier': 'ira_laser_tools', 'progress': 'cmake'}
+[0.028570] (ira_laser_tools) JobProgress: {'identifier': 'ira_laser_tools', 'progress': 'build'}
+[0.028612] (ira_laser_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/ira_laser_tools', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/ira_laser_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/ira_laser_tools'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053606] (demo_gazebo_sim) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/abc/ROS2_SIM_WS/src/demo_gazebo_sim" does not exist.\n'}
+[0.053796] (demo_gazebo_sim) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.053837] (demo_gazebo_sim) StderrLine: {'line': b'gmake: *** [Makefile:226\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.060147] (demo_gazebo_sim) CommandEnded: {'returncode': 2}
+[0.068823] (demo_gazebo_sim) JobEnded: {'identifier': 'demo_gazebo_sim', 'rc': 2}
+[0.072117] (bridge_ign) JobEnded: {'identifier': 'bridge_ign', 'rc': 'SIGINT'}
+[0.079868] (ira_laser_tools) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o\x1b[0m\n'}
+[0.081463] (ira_laser_tools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_virtualizer.dir/src/laserscan_virtualizer.cpp.o\x1b[0m\n'}
+[0.086588] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.100396] (-) TimerEvent: {}
+[0.102419] (Stage) StdoutLine: {'line': b'[ 61%] Built target sink\n'}
+[0.103172] (Stage) StdoutLine: {'line': b'[ 64%] Built target source\n'}
+[0.103779] (Stage) StdoutLine: {'line': b'[ 67%] Built target stagebinary\n'}
+[0.103954] (Stage) StdoutLine: {'line': b'[ 71%] Built target fasr\n'}
+[0.122055] (Stage) StdoutLine: {'line': b'[ 74%] Built target wander\n'}
+[0.122291] (Stage) StdoutLine: {'line': b'[ 77%] Built target pioneer_flocking\n'}
+[0.128184] (Stage) StdoutLine: {'line': b'[ 81%] Built target rasterize\n'}
+[0.130372] (Stage) StdoutLine: {'line': b'[ 84%] Built target lasernoise\n'}
+[0.146523] (Stage) StdoutLine: {'line': b'[ 88%] Built target dynamic\n'}
+[0.147395] (Stage) StdoutLine: {'line': b'[ 93%] Built target fasr2\n'}
+[0.150551] (Stage) StdoutLine: {'line': b'[ 96%] Built target expand_swarm\n'}
+[0.151095] (Stage) StdoutLine: {'line': b'[100%] Built target expand_pioneer\n'}
+[0.158776] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 'SIGINT'}
+[0.200629] (-) TimerEvent: {}
+[0.301342] (-) TimerEvent: {}
+[0.402109] (-) TimerEvent: {}
+[0.502703] (-) TimerEvent: {}
+[0.603258] (-) TimerEvent: {}
+[0.704174] (-) TimerEvent: {}
+[0.805905] (-) TimerEvent: {}
+[0.906320] (-) TimerEvent: {}
+[1.007053] (-) TimerEvent: {}
+[1.107674] (-) TimerEvent: {}
+[1.208195] (-) TimerEvent: {}
+[1.309248] (-) TimerEvent: {}
+[1.410341] (-) TimerEvent: {}
+[1.511650] (-) TimerEvent: {}
+[1.612677] (-) TimerEvent: {}
+[1.713362] (-) TimerEvent: {}
+[1.813844] (-) TimerEvent: {}
+[1.914297] (-) TimerEvent: {}
+[2.015173] (-) TimerEvent: {}
+[2.116597] (-) TimerEvent: {}
+[2.217049] (-) TimerEvent: {}
+[2.317624] (-) TimerEvent: {}
+[2.418463] (-) TimerEvent: {}
+[2.519272] (-) TimerEvent: {}
+[2.620361] (-) TimerEvent: {}
+[2.721909] (-) TimerEvent: {}
+[2.823261] (-) TimerEvent: {}
+[2.924515] (-) TimerEvent: {}
+[3.025715] (-) TimerEvent: {}
+[3.126924] (-) TimerEvent: {}
+[3.227457] (-) TimerEvent: {}
+[3.328061] (-) TimerEvent: {}
+[3.428980] (-) TimerEvent: {}
+[3.529548] (-) TimerEvent: {}
+[3.629980] (-) TimerEvent: {}
+[3.730494] (-) TimerEvent: {}
+[3.830985] (-) TimerEvent: {}
+[3.931356] (-) TimerEvent: {}
+[4.032004] (-) TimerEvent: {}
+[4.132800] (-) TimerEvent: {}
+[4.233497] (-) TimerEvent: {}
+[4.334003] (-) TimerEvent: {}
+[4.434965] (-) TimerEvent: {}
+[4.535641] (-) TimerEvent: {}
+[4.636159] (-) TimerEvent: {}
+[4.737211] (-) TimerEvent: {}
+[4.838296] (-) TimerEvent: {}
+[4.939531] (-) TimerEvent: {}
+[5.040634] (-) TimerEvent: {}
+[5.141371] (-) TimerEvent: {}
+[5.243329] (-) TimerEvent: {}
+[5.343943] (-) TimerEvent: {}
+[5.445306] (-) TimerEvent: {}
+[5.546005] (-) TimerEvent: {}
+[5.646326] (-) TimerEvent: {}
+[5.746937] (-) TimerEvent: {}
+[5.847455] (-) TimerEvent: {}
+[5.948301] (-) TimerEvent: {}
+[6.049087] (-) TimerEvent: {}
+[6.149894] (-) TimerEvent: {}
+[6.250493] (-) TimerEvent: {}
+[6.351329] (-) TimerEvent: {}
+[6.452237] (-) TimerEvent: {}
+[6.553115] (-) TimerEvent: {}
+[6.653660] (-) TimerEvent: {}
+[6.754602] (-) TimerEvent: {}
+[6.855604] (-) TimerEvent: {}
+[6.955975] (-) TimerEvent: {}
+[7.056789] (-) TimerEvent: {}
+[7.157552] (-) TimerEvent: {}
+[7.258158] (-) TimerEvent: {}
+[7.359032] (-) TimerEvent: {}
+[7.459964] (-) TimerEvent: {}
+[7.560616] (-) TimerEvent: {}
+[7.661378] (-) TimerEvent: {}
+[7.762074] (-) TimerEvent: {}
+[7.862479] (-) TimerEvent: {}
+[7.963160] (-) TimerEvent: {}
+[8.064486] (-) TimerEvent: {}
+[8.164938] (-) TimerEvent: {}
+[8.267643] (-) TimerEvent: {}
+[8.368395] (-) TimerEvent: {}
+[8.469119] (-) TimerEvent: {}
+[8.570107] (-) TimerEvent: {}
+[8.670493] (-) TimerEvent: {}
+[8.771587] (-) TimerEvent: {}
+[8.872172] (-) TimerEvent: {}
+[8.973227] (-) TimerEvent: {}
+[9.074636] (-) TimerEvent: {}
+[9.175487] (-) TimerEvent: {}
+[9.276074] (-) TimerEvent: {}
+[9.376485] (-) TimerEvent: {}
+[9.477113] (-) TimerEvent: {}
+[9.577598] (-) TimerEvent: {}
+[9.678070] (-) TimerEvent: {}
+[9.779284] (-) TimerEvent: {}
+[9.879784] (-) TimerEvent: {}
+[9.980296] (-) TimerEvent: {}
+[10.081442] (-) TimerEvent: {}
+[10.182009] (-) TimerEvent: {}
+[10.282569] (-) TimerEvent: {}
+[10.383152] (-) TimerEvent: {}
+[10.484090] (-) TimerEvent: {}
+[10.584548] (-) TimerEvent: {}
+[10.685401] (-) TimerEvent: {}
+[10.785797] (-) TimerEvent: {}
+[10.886563] (-) TimerEvent: {}
+[10.987154] (-) TimerEvent: {}
+[11.087706] (-) TimerEvent: {}
+[11.189887] (-) TimerEvent: {}
+[11.291635] (-) TimerEvent: {}
+[11.392364] (-) TimerEvent: {}
+[11.492789] (-) TimerEvent: {}
+[11.593523] (-) TimerEvent: {}
+[11.693992] (-) TimerEvent: {}
+[11.708294] (ira_laser_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laserscan_multi_merger\x1b[0m\n'}
+[11.719103] (ira_laser_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laserscan_virtualizer\x1b[0m\n'}
+[11.794123] (-) TimerEvent: {}
+[11.894809] (-) TimerEvent: {}
+[11.995680] (-) TimerEvent: {}
+[12.097466] (-) TimerEvent: {}
+[12.198184] (-) TimerEvent: {}
+[12.299206] (-) TimerEvent: {}
+[12.400449] (-) TimerEvent: {}
+[12.502322] (-) TimerEvent: {}
+[12.603254] (-) TimerEvent: {}
+[12.704656] (-) TimerEvent: {}
+[12.727661] (ira_laser_tools) StdoutLine: {'line': b'[100%] Built target laserscan_multi_merger\n'}
+[12.728173] (ira_laser_tools) StdoutLine: {'line': b'[100%] Built target laserscan_virtualizer\n'}
+[12.784743] (ira_laser_tools) JobEnded: {'identifier': 'ira_laser_tools', 'rc': 'SIGINT'}
+[12.805880] (-) TimerEvent: {}
+[12.814136] (mycar_description) JobSkipped: {'identifier': 'mycar_description'}
+[12.814203] (mycar_description_detailed) JobSkipped: {'identifier': 'mycar_description_detailed'}
+[12.814235] (stage_ros2) JobSkipped: {'identifier': 'stage_ros2'}
+[12.814259] (demo_stage_sim) JobSkipped: {'identifier': 'demo_stage_sim'}
+[12.814282] (-) EventReactorShutdown: {}

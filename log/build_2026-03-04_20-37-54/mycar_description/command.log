@@ -1,0 +1,6 @@
+Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/mycar/mycar_description -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/mycar_description
+Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/mycar/mycar_description -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/mycar_description
+Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description
+Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description

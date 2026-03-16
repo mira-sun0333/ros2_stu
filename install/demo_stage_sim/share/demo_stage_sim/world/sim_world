@@ -1,0 +1,80 @@
+#只是设置仿真环境的文件
+#全局参数
+resolution 0.02 # 一个像素对应的长度,长度单位是米
+interval_sim 200 #仿真环境更新的步长值,单位是毫秒
+
+# 窗体---------------------------------------------
+window
+(
+  size [ 600.000 400.000 ] # 窗体尺寸(以 像素 为单位)
+  scale 35  # 缩放比
+  center [ 0  0 ] # 地图相对于窗体的偏移量(以 米 为单位)
+  rotate [ 0  0 ] # 地图旋转角度
+
+  show_data 1     # 是否显示传感器数据 1=on 0=off
+)
+# 地图---------------------------------------------
+# 设置地图(定义模型)
+define floorplan model
+(
+  color "gray30"  # 颜色
+  boundary 1  # 为地图设置边框
+
+  gui_nose 0
+  gui_grid 0 
+
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1 # 雷达可扫描到
+)
+
+# 加载地图
+floorplan
+( 
+  name "my_house"
+  size [16.000 16.000 5.000]
+  pose [0 0 0 0]
+  bitmap "maps/uoa_robotics_lab.png"
+  gui_move 0
+)
+# 障碍物-------------------------------------------
+# 基本模型的使用方法
+# 方式1:直接调用模型对象
+model(pose [-2 -5 0 0] color "green")
+
+# 方式2自定义模型对象
+define my_model model(
+    size [2 2 2]
+    color "red"
+)
+my_model(pose [0 0 0 0] bitmap "maps/ghost.png" say "hello ghost")
+my_model(pose [2 5 0 0] bitmap "maps/space_invader.png")
+
+# 机器人-------------------------------------------
+#  --- 底盘 + 激光雷达 + 摄像头
+# 1.定义底盘模型
+# 2.定义雷达模型
+# 3.定义摄像头模型
+# 4.组成机器人模型
+# 5.生成机器人模型
+
+# 为了方便复用以及后期维护,可以将不同模块，单独封装为配置 .inc 文件
+# 生成机器人模型
+# include "robot/mycar.inc"
+# my_car(
+#    name "robot_0"
+#    pose [-2 -4 0 30]
+#)
+
+#my_car(
+#    name "robot_1"
+#    pose [-4 -4 0 0]
+#    color "yellow"
+#)
+
+#my_car(
+#    name "robot_0"
+#    pose [-2 5 0 0]
+#    color "blue"
+#)

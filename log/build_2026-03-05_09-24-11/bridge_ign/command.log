@@ -1,0 +1,1 @@
+Invoking command in '/home/abc/ROS2_SIM_WS/build/bridge_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/sim_gazebo/bridge_ign -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/bridge_ign

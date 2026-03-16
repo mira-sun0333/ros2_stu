@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000471] (bridge_ign) JobQueued: {'identifier': 'bridge_ign', 'dependencies': OrderedDict()}
+[0.000498] (demo_gazebo_sim) JobQueued: {'identifier': 'demo_gazebo_sim', 'dependencies': OrderedDict()}
+[0.000512] (ira_laser_tools) JobQueued: {'identifier': 'ira_laser_tools', 'dependencies': OrderedDict()}
+[0.000535] (mycar_description) JobQueued: {'identifier': 'mycar_description', 'dependencies': OrderedDict()}
+[0.000559] (mycar_description_detailed) JobQueued: {'identifier': 'mycar_description_detailed', 'dependencies': OrderedDict()}
+[0.001002] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage')])}
+[0.001247] (demo_stage_sim) JobQueued: {'identifier': 'demo_stage_sim', 'dependencies': OrderedDict([('Stage', '/home/abc/ROS2_SIM_WS/install/Stage'), ('stage_ros2', '/home/abc/ROS2_SIM_WS/install/stage_ros2')])}
+[0.001300] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.019004] (bridge_ign) JobStarted: {'identifier': 'bridge_ign'}
+[0.022784] (demo_gazebo_sim) JobStarted: {'identifier': 'demo_gazebo_sim'}
+[0.025307] (ira_laser_tools) JobStarted: {'identifier': 'ira_laser_tools'}
+[0.028616] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.030529] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[0.030596] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/Stage', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/Stage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/Stage'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.033672] (bridge_ign) JobProgress: {'identifier': 'bridge_ign', 'progress': 'cmake'}
+[0.035151] (bridge_ign) JobProgress: {'identifier': 'bridge_ign', 'progress': 'build'}
+[0.035375] (bridge_ign) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/bridge_ign', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/bridge_ign', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/bridge_ign'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036989] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'cmake'}
+[0.038669] (demo_gazebo_sim) JobProgress: {'identifier': 'demo_gazebo_sim', 'progress': 'build'}
+[0.038718] (demo_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/demo_gazebo_sim'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045068] (ira_laser_tools) JobProgress: {'identifier': 'ira_laser_tools', 'progress': 'cmake'}
+[0.048384] (ira_laser_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_SIM_WS/src/sim_stage/ira_laser_tools', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/ira_laser_tools'], 'cwd': '/home/abc/ROS2_SIM_WS/build/ira_laser_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 62718 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-708c90de-610f-4ce4-8176-eaff40137820.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.150.1:0.0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f2d74ee2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_SIM_WS/build/ira_laser_tools'), ('SSH_CONNECTION', '192.168.150.1 62718 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055070] (demo_gazebo_sim) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/abc/ROS2_SIM_WS/src/demo_gazebo_sim" does not exist.\n'}
+[0.055316] (demo_gazebo_sim) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.059337] (demo_gazebo_sim) StderrLine: {'line': b'gmake: *** [Makefile:226\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.061964] (demo_gazebo_sim) CommandEnded: {'returncode': 2}
+[0.070368] (ira_laser_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.070552] (bridge_ign) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.076210] (demo_gazebo_sim) JobEnded: {'identifier': 'demo_gazebo_sim', 'rc': 2}
+[0.102069] (-) TimerEvent: {}
+[0.113147] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.136668] (Stage) StdoutLine: {'line': b'[ 61%] Built target stagebinary\n'}
+[0.137147] (Stage) StdoutLine: {'line': b'[ 64%] Built target sink\n'}
+[0.137460] (Stage) StdoutLine: {'line': b'[ 67%] Built target fasr\n'}
+[0.141566] (Stage) StdoutLine: {'line': b'[ 71%] Built target source\n'}
+[0.165980] (Stage) StdoutLine: {'line': b'[ 74%] Built target pioneer_flocking\n'}
+[0.168599] (Stage) StdoutLine: {'line': b'[ 77%] Built target wander\n'}
+[0.174735] (Stage) StdoutLine: {'line': b'[ 81%] Built target lasernoise\n'}
+[0.175496] (Stage) StdoutLine: {'line': b'[ 84%] Built target rasterize\n'}
+[0.193335] (Stage) StdoutLine: {'line': b'[ 89%] Built target fasr2\n'}
+[0.195185] (Stage) StdoutLine: {'line': b'[ 93%] Built target dynamic\n'}
+[0.202781] (-) TimerEvent: {}
+[0.207334] (Stage) StdoutLine: {'line': b'[100%] Built target expand_pioneer\n'}
+[0.207622] (Stage) StdoutLine: {'line': b'[100%] Built target expand_swarm\n'}
+[0.216899] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 'SIGINT'}
+[0.231951] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.232467] (bridge_ign) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.244.22 (/opt/ros/humble/share/ros_gz_bridge/cmake)\n'}
+[0.278215] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.278458] (bridge_ign) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.282256] (bridge_ign) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.282440] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.292306] (bridge_ign) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.292558] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.302880] (-) TimerEvent: {}
+[0.305959] (ira_laser_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.306566] (bridge_ign) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.322861] (ira_laser_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.323123] (bridge_ign) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.367409] (ira_laser_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.367677] (bridge_ign) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.371126] (bridge_ign) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.371351] (ira_laser_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.403408] (-) TimerEvent: {}
+[0.460002] (ira_laser_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.460340] (bridge_ign) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.503575] (-) TimerEvent: {}
+[0.527530] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.568639] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.583275] (bridge_ign) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.592220] (ira_laser_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.604042] (-) TimerEvent: {}
+[0.608805] (ira_laser_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.628271] (ira_laser_tools) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.633322] (bridge_ign) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.641775] (ira_laser_tools) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.686668] (ira_laser_tools) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[0.704190] (-) TimerEvent: {}
+[0.728616] (ira_laser_tools) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.736865] (ira_laser_tools) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.758780] (ira_laser_tools) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.758976] (ira_laser_tools) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.796006] (ira_laser_tools) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.804871] (-) TimerEvent: {}
+[0.805471] (ira_laser_tools) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.831238] (ira_laser_tools) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.831420] (ira_laser_tools) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.886208] (bridge_ign) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.904970] (-) TimerEvent: {}
+[0.950837] (bridge_ign) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.951291] (bridge_ign) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.951752] (bridge_ign) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.952751] (bridge_ign) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.955823] (bridge_ign) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.962833] (bridge_ign) StdoutLine: {'line': b'-- Generating done\n'}
+[0.964909] (bridge_ign) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/bridge_ign\n'}
+[0.986623] (bridge_ign) JobEnded: {'identifier': 'bridge_ign', 'rc': 'SIGINT'}
+[1.005281] (-) TimerEvent: {}
+[1.105678] (-) TimerEvent: {}
+[1.206182] (-) TimerEvent: {}
+[1.307165] (-) TimerEvent: {}
+[1.407902] (-) TimerEvent: {}
+[1.508717] (-) TimerEvent: {}
+[1.598070] (ira_laser_tools) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.606256] (ira_laser_tools) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.608941] (-) TimerEvent: {}
+[1.627843] (ira_laser_tools) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.629787] (ira_laser_tools) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.665838] (ira_laser_tools) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.709241] (-) TimerEvent: {}
+[1.768720] (ira_laser_tools) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.773659] (ira_laser_tools) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.777620] (ira_laser_tools) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.810256] (-) TimerEvent: {}
+[1.874254] (ira_laser_tools) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.910703] (-) TimerEvent: {}
+[1.975862] (ira_laser_tools) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.011297] (-) TimerEvent: {}
+[2.068867] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.070296] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.071173] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.073393] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.074043] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.074664] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.074898] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.075159] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.075731] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.076359] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.076965] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.077522] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.078188] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.079117] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.079995] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.080679] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.081412] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.081994] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.082680] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.083212] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.083731] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.083962] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.084604] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.085330] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.086234] (ira_laser_tools) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.101600] (ira_laser_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.101735] (ira_laser_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.104258] (ira_laser_tools) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (find_package):\n'}
+[2.104347] (ira_laser_tools) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.104379] (ira_laser_tools) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.104407] (ira_laser_tools) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.104435] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[2.104464] (ira_laser_tools) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.104493] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[2.104519] (ira_laser_tools) StderrLine: {'line': b'    /usr\n'}
+[2.104545] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[2.104569] (ira_laser_tools) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.104596] (ira_laser_tools) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.104621] (ira_laser_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[2.111452] (-) TimerEvent: {}
+[2.160580] (ira_laser_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.211603] (-) TimerEvent: {}
+[2.265040] (ira_laser_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[2.278873] (ira_laser_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_SIM_WS/build/ira_laser_tools\n'}
+[2.291362] (ira_laser_tools) JobEnded: {'identifier': 'ira_laser_tools', 'rc': 'SIGINT'}
+[2.302330] (mycar_description) JobSkipped: {'identifier': 'mycar_description'}
+[2.302460] (mycar_description_detailed) JobSkipped: {'identifier': 'mycar_description_detailed'}
+[2.302530] (stage_ros2) JobSkipped: {'identifier': 'stage_ros2'}
+[2.302631] (demo_stage_sim) JobSkipped: {'identifier': 'demo_stage_sim'}
+[2.302674] (-) EventReactorShutdown: {}

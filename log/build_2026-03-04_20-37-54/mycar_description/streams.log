@@ -1,0 +1,54 @@
+[0.018s] Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/mycar/mycar_description -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/mycar_description
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.361s] -- The CXX compiler identification is GNU 11.4.0
+[0.376s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.455s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.542s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.772s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.845s] -- Added test 'lint_cmake' to check CMake code style
+[0.846s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.847s] -- Added test 'xmllint' to check XML markup files
+[0.849s] -- Configuring done
+[0.851s] -- Generating done
+[0.852s] -- Build files have been written to: /home/abc/ROS2_SIM_WS/build/mycar_description
+[0.857s] Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abc/ROS2_SIM_WS/src/mycar/mycar_description -DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_SIM_WS/install/mycar_description
+[0.857s] Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+[0.885s] Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/mycar_description -- -j4 -l4
+[0.892s] Invoking command in '/home/abc/ROS2_SIM_WS/build/mycar_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description
+[0.897s] -- Install configuration: ""
+[0.897s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch/mycar_desc_sim.launch.py
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/launch/mycar_desc.launch.py
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/arduino.urdf
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/stm32_4w.urdf
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/urdf/stm32_2w.urdf
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh
+[0.898s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh/mycar_4w.stl
+[0.908s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/mesh/mycar_2w.stl
+[0.942s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/package_run_dependencies/mycar_description
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/parent_prefix_path/mycar_description
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/ament_prefix_path.sh
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/ament_prefix_path.dsv
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/path.sh
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/environment/path.dsv
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.bash
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.sh
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.zsh
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/local_setup.dsv
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/package.dsv
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/ament_index/resource_index/packages/mycar_description
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig.cmake
+[0.943s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/cmake/mycar_descriptionConfig-version.cmake
+[0.944s] -- Installing: /home/abc/ROS2_SIM_WS/install/mycar_description/share/mycar_description/package.xml
+[0.946s] Invoked command in '/home/abc/ROS2_SIM_WS/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_SIM_WS/build/mycar_description

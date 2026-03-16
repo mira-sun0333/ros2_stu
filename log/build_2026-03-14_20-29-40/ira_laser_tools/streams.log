@@ -1,0 +1,5 @@
+[0.060s] Invoking command in '/home/abc/ROS2_SIM_WS/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_SIM_WS/build/ira_laser_tools -- -j4 -l4
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target laserscan_virtualizer[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target laserscan_multi_merger[0m
+[0.400s] [ 50%] Built target laserscan_virtualizer
+[0.401s] [100%] Built target laserscan_multi_merger
