@@ -1,0 +1,10 @@
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/uninstall.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/voice_case_uninstall.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/voice_control.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/test.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/edit_cache.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/rebuild_cache.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/list_install_components.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/install.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/install/local.dir
+/home/abc/ROS2_VOICE_WS/src/build/voice_case/CMakeFiles/install/strip.dir

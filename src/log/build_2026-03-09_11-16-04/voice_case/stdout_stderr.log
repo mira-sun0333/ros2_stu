@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+[01m[K/home/abc/ROS2_VOICE_WS/src/voice_case/src/voice_control.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Knav2_msgs/action/navigate_to_pose.hpp: 没有那个文件或目录
+    3 | #include [01;31m[K"nav2_msgs/action/navigate_to_pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/voice_control.dir/build.make:76：CMakeFiles/voice_control.dir/src/voice_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/voice_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

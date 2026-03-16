@@ -1,0 +1,4 @@
+Invoking command in '/home/abc/ROS2_VOICE_WS/src/build/voice_case': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_VOICE_WS/src/build/voice_case -- -j4 -l4
+Invoked command in '/home/abc/ROS2_VOICE_WS/src/build/voice_case' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_VOICE_WS/src/build/voice_case -- -j4 -l4
+Invoking command in '/home/abc/ROS2_VOICE_WS/src/build/voice_case': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_VOICE_WS/src/build/voice_case
+Invoked command in '/home/abc/ROS2_VOICE_WS/src/build/voice_case' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_VOICE_WS/src/build/voice_case

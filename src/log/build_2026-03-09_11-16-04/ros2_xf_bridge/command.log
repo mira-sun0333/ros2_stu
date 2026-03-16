@@ -1,0 +1,4 @@
+Invoking command in '/home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge -- -j4 -l4
+Invoked command in '/home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge -- -j4 -l4
+Invoking command in '/home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge
+Invoked command in '/home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abc/ROS2_VOICE_WS/src/build/ros2_xf_bridge

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d2d257c6e8df83ce2e16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_xf_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_xf_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_xf_bridge_uninstall-764c336f9632ef41e4e9.json",
+					"name" : "ros2_xf_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t2v::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t2v-717ed1f83f9bece1dd20.json",
+					"name" : "t2v",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd01cc9e9a263427bce2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v2t::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v2t-07a45c9f4a7436f159c3.json",
+					"name" : "v2t",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge",
+		"source" : "/home/abc/ROS2_VOICE_WS/src/xf/ros2_xf_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

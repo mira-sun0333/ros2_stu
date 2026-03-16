@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable voice_control[0m
+[100%] Built target voice_control
+-- Install configuration: ""
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/lib/voice_case/voice_control
+-- Set runtime path of "/home/abc/ROS2_VOICE_WS/src/install/voice_case/lib/voice_case/voice_control" to ""
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/ament_index/resource_index/package_run_dependencies/voice_case
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/ament_index/resource_index/parent_prefix_path/voice_case
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/environment/ament_prefix_path.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/environment/ament_prefix_path.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/environment/path.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/environment/path.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/local_setup.bash
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/local_setup.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/local_setup.zsh
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/local_setup.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/package.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/ament_index/resource_index/packages/voice_case
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/cmake/voice_caseConfig.cmake
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/cmake/voice_caseConfig-version.cmake
+-- Installing: /home/abc/ROS2_VOICE_WS/src/install/voice_case/share/voice_case/package.xml

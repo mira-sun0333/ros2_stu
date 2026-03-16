@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/abc/ROS2_VOICE_WS/src/xf/ros2_xf_bridge/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge
+[ 66%] [32mBuilding CXX object CMakeFiles/v2t.dir/src/v2t.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/t2v.dir/src/t2v.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/v2t.dir/src/linuxrec.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/v2t.dir/src/speech_recognizer.c.o[0m
+[ 83%] [32m[1mLinking CXX executable v2t[0m
+[ 83%] Built target v2t
+[100%] [32m[1mLinking CXX executable t2v[0m
+[100%] Built target t2v
+-- Install configuration: ""
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/v2t
+-- Set runtime path of "/home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/v2t" to ""
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_cmn.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qisr.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_errors.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_types.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qtts.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/formats.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/speech_recognizer.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/linuxrec.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qise.h
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/t2v
+-- Set runtime path of "/home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/t2v" to ""
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_xf_bridge
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_xf_bridge
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/path.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/path.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.bash
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.sh
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.zsh
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/package.dsv
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/packages/ros2_xf_bridge
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/cmake/ros2_xf_bridgeConfig.cmake
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/cmake/ros2_xf_bridgeConfig-version.cmake
+-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/package.xml

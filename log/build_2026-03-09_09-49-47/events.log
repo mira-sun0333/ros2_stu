@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (ros2_xf_bridge) JobQueued: {'identifier': 'ros2_xf_bridge', 'dependencies': OrderedDict()}
+[0.000284] (ros2_xf_bridge) JobStarted: {'identifier': 'ros2_xf_bridge'}
+[0.012511] (ros2_xf_bridge) JobProgress: {'identifier': 'ros2_xf_bridge', 'progress': 'cmake'}
+[0.014051] (ros2_xf_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/abc/ROS2_VOICE_WS/src/xf/ros2_xf_bridge', '-DCMAKE_INSTALL_PREFIX=/home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge'], 'cwd': '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 56340 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-67936893-7f10-44c8-84cc-20a4c1b52661.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-60c8462008c490bc.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/abc/.vscode-server/data/User/workspaceStorage/1fa4f2ae8e56af44d4451597362c7138/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-00bb50e6df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge'), ('SSH_CONNECTION', '192.168.150.1 56340 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096224] (ros2_xf_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100043] (-) TimerEvent: {}
+[0.145122] (ros2_xf_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.158337] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.202732] (-) TimerEvent: {}
+[0.221657] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.226333] (ros2_xf_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227798] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228733] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.232039] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.297589] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.302565] (ros2_xf_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.302747] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.302792] (-) TimerEvent: {}
+[0.303028] (ros2_xf_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.306015] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.403115] (-) TimerEvent: {}
+[0.430527] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.503398] (-) TimerEvent: {}
+[0.507780] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.557497] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.561623] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.570774] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.581863] (ros2_xf_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.597976] (ros2_xf_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.603542] (-) TimerEvent: {}
+[0.648561] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.651419] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.704152] (-) TimerEvent: {}
+[0.747911] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.768176] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.795131] (ros2_xf_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.804383] (-) TimerEvent: {}
+[0.805111] (ros2_xf_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.869263] (ros2_xf_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.870512] (ros2_xf_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.904974] (-) TimerEvent: {}
+[0.944781] (ros2_xf_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.944949] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.997321] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.005431] (-) TimerEvent: {}
+[1.010423] (ros2_xf_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.070793] (ros2_xf_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.071034] (ros2_xf_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/abc/ROS2_VOICE_WS/src/xf/ros2_xf_bridge/include>\n'}
+[1.071167] (ros2_xf_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.071828] (ros2_xf_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.072688] (ros2_xf_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.072765] (ros2_xf_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.073459] (ros2_xf_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.074894] (ros2_xf_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.084816] (ros2_xf_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.088656] (ros2_xf_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge\n'}
+[1.095573] (ros2_xf_bridge) CommandEnded: {'returncode': 0}
+[1.096187] (ros2_xf_bridge) JobProgress: {'identifier': 'ros2_xf_bridge', 'progress': 'build'}
+[1.097309] (ros2_xf_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge', '--', '-j4', '-l4'], 'cwd': '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 56340 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-67936893-7f10-44c8-84cc-20a4c1b52661.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-60c8462008c490bc.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/abc/.vscode-server/data/User/workspaceStorage/1fa4f2ae8e56af44d4451597362c7138/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-00bb50e6df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge'), ('SSH_CONNECTION', '192.168.150.1 56340 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.105536] (-) TimerEvent: {}
+[1.136028] (ros2_xf_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/v2t.dir/src/v2t.cpp.o\x1b[0m\n'}
+[1.136269] (ros2_xf_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/t2v.dir/src/t2v.cpp.o\x1b[0m\n'}
+[1.136333] (ros2_xf_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/v2t.dir/src/linuxrec.c.o\x1b[0m\n'}
+[1.136365] (ros2_xf_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/v2t.dir/src/speech_recognizer.c.o\x1b[0m\n'}
+[1.206532] (-) TimerEvent: {}
+[1.307212] (-) TimerEvent: {}
+[1.408094] (-) TimerEvent: {}
+[1.508832] (-) TimerEvent: {}
+[1.609870] (-) TimerEvent: {}
+[1.711064] (-) TimerEvent: {}
+[1.811795] (-) TimerEvent: {}
+[1.912624] (-) TimerEvent: {}
+[2.013532] (-) TimerEvent: {}
+[2.113999] (-) TimerEvent: {}
+[2.214441] (-) TimerEvent: {}
+[2.314852] (-) TimerEvent: {}
+[2.415333] (-) TimerEvent: {}
+[2.515837] (-) TimerEvent: {}
+[2.616314] (-) TimerEvent: {}
+[2.716900] (-) TimerEvent: {}
+[2.818192] (-) TimerEvent: {}
+[2.918857] (-) TimerEvent: {}
+[3.019561] (-) TimerEvent: {}
+[3.120230] (-) TimerEvent: {}
+[3.220703] (-) TimerEvent: {}
+[3.321550] (-) TimerEvent: {}
+[3.422535] (-) TimerEvent: {}
+[3.523476] (-) TimerEvent: {}
+[3.624533] (-) TimerEvent: {}
+[3.725459] (-) TimerEvent: {}
+[3.826467] (-) TimerEvent: {}
+[3.927714] (-) TimerEvent: {}
+[4.028106] (-) TimerEvent: {}
+[4.130825] (-) TimerEvent: {}
+[4.231178] (-) TimerEvent: {}
+[4.331769] (-) TimerEvent: {}
+[4.432219] (-) TimerEvent: {}
+[4.532836] (-) TimerEvent: {}
+[4.549000] (ros2_xf_bridge) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable v2t\x1b[0m\n'}
+[4.633325] (-) TimerEvent: {}
+[4.736355] (-) TimerEvent: {}
+[4.797148] (ros2_xf_bridge) StdoutLine: {'line': b'[ 83%] Built target v2t\n'}
+[4.837118] (-) TimerEvent: {}
+[4.938398] (-) TimerEvent: {}
+[5.038802] (-) TimerEvent: {}
+[5.139540] (-) TimerEvent: {}
+[5.240141] (-) TimerEvent: {}
+[5.341232] (-) TimerEvent: {}
+[5.441572] (-) TimerEvent: {}
+[5.542131] (-) TimerEvent: {}
+[5.642674] (-) TimerEvent: {}
+[5.743486] (-) TimerEvent: {}
+[5.844233] (-) TimerEvent: {}
+[5.944841] (-) TimerEvent: {}
+[6.045574] (-) TimerEvent: {}
+[6.146049] (-) TimerEvent: {}
+[6.246812] (-) TimerEvent: {}
+[6.348012] (-) TimerEvent: {}
+[6.449151] (-) TimerEvent: {}
+[6.549829] (-) TimerEvent: {}
+[6.650613] (-) TimerEvent: {}
+[6.751558] (-) TimerEvent: {}
+[6.852406] (-) TimerEvent: {}
+[6.953082] (-) TimerEvent: {}
+[7.053976] (-) TimerEvent: {}
+[7.154504] (-) TimerEvent: {}
+[7.255331] (-) TimerEvent: {}
+[7.355921] (-) TimerEvent: {}
+[7.456754] (-) TimerEvent: {}
+[7.557715] (-) TimerEvent: {}
+[7.585953] (ros2_xf_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable t2v\x1b[0m\n'}
+[7.658186] (-) TimerEvent: {}
+[7.758733] (-) TimerEvent: {}
+[7.859672] (-) TimerEvent: {}
+[7.914047] (ros2_xf_bridge) StdoutLine: {'line': b'[100%] Built target t2v\n'}
+[7.925681] (ros2_xf_bridge) CommandEnded: {'returncode': 0}
+[7.927014] (ros2_xf_bridge) JobProgress: {'identifier': 'ros2_xf_bridge', 'progress': 'install'}
+[7.936394] (ros2_xf_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge'], 'cwd': '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_CLIENT', '192.168.150.1 56340 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/abc'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-67936893-7f10-44c8-84cc-20a4c1b52661.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/loongson-gcc/bin:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abc/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abc/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/opt/loongson-gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-60c8462008c490bc.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/abc/.vscode-server/data/User/workspaceStorage/1fa4f2ae8e56af44d4451597362c7138/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-00bb50e6df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', 'ign_models'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abc/ROS2_VOICE_WS/build/ros2_xf_bridge'), ('SSH_CONNECTION', '192.168.150.1 56340 192.168.150.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.942513] (ros2_xf_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.942687] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/v2t\n'}
+[7.943484] (ros2_xf_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/v2t" to ""\n'}
+[7.943647] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include\n'}
+[7.943724] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge\n'}
+[7.943815] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_cmn.h\n'}
+[7.943857] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qisr.h\n'}
+[7.943896] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_errors.h\n'}
+[7.943924] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/msp_types.h\n'}
+[7.943963] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qtts.h\n'}
+[7.948199] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/formats.h\n'}
+[7.948525] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/speech_recognizer.h\n'}
+[7.948622] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/linuxrec.h\n'}
+[7.948667] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/include/ros2_xf_bridge/qise.h\n'}
+[7.948791] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/t2v\n'}
+[7.951459] (ros2_xf_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/lib/ros2_xf_bridge/t2v" to ""\n'}
+[7.951671] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/package_run_dependencies/ros2_xf_bridge\n'}
+[7.951764] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/parent_prefix_path/ros2_xf_bridge\n'}
+[7.951936] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/ament_prefix_path.sh\n'}
+[7.952000] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/ament_prefix_path.dsv\n'}
+[7.952038] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/path.sh\n'}
+[7.952133] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/environment/path.dsv\n'}
+[7.952168] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.bash\n'}
+[7.952279] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.sh\n'}
+[7.952316] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.zsh\n'}
+[7.952346] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/local_setup.dsv\n'}
+[7.952401] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/package.dsv\n'}
+[7.952497] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ament_index/resource_index/packages/ros2_xf_bridge\n'}
+[7.952568] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/cmake/ros2_xf_bridgeConfig.cmake\n'}
+[7.952630] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/cmake/ros2_xf_bridgeConfig-version.cmake\n'}
+[7.952768] (ros2_xf_bridge) StdoutLine: {'line': b'-- Installing: /home/abc/ROS2_VOICE_WS/install/ros2_xf_bridge/share/ros2_xf_bridge/package.xml\n'}
+[7.954442] (ros2_xf_bridge) CommandEnded: {'returncode': 0}
+[7.960119] (-) TimerEvent: {}
+[7.973723] (ros2_xf_bridge) JobEnded: {'identifier': 'ros2_xf_bridge', 'rc': 0}
+[7.974917] (-) EventReactorShutdown: {}

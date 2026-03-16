@@ -1,0 +1,4 @@
+source;share/voice_case/local_setup.bash
+source;share/voice_case/local_setup.dsv
+source;share/voice_case/local_setup.sh
+source;share/voice_case/local_setup.zsh
