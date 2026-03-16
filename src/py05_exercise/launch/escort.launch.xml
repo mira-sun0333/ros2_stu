@@ -1,0 +1,38 @@
+<!-- 
+     需求:实现乌龟护航案例
+        先实现一只乌龟(back)护航,要求back最终位置处于turtle的正后方两米处
+    思路:
+        1.发布目标点相对于turtle1的坐标变换
+        2.监听back与目标点坐标系的相对位置关系
+    流程:
+        1.抽取参数
+        2.创建turtlesim_node节点,并生成新乌龟
+        3.发布坐标变换
+        4.监听坐标变换
+-->
+<launch>
+    <!-- 1.抽取参数 -->
+    <arg name = "turtle_back" default = "turtle_back"/>
+
+    <!-- 2.创建turtlesim_node节点,并生成新乌龟 -->
+    <node pkg = "turtlesim" exec = "turtlesim_node"/>
+    <node pkg = "py05_exercise" exec = "exer01_spawn_py" name = "$(var turtle_back)">
+        <param name = "x" value = "2.0"/>
+        <param name = "y" value = "2.0"/>
+        <param name = "theta" value = "1.57"/>
+        <param name = "turtle_name" value = "$(var turtle_back)"/>
+    </node>
+    <!-- 3.发布坐标变换 -->
+    <node pkg = "py05_exercise" exec = "exer02_tf_broadcaster_py" name = "turtle1_world"/>
+    <node pkg = "py05_exercise" exec = "exer02_tf_broadcaster_py" name = "back_world">
+        <param name = "turtle" value = "$(var turtle_back)"/>
+    </node>
+    <node pkg = "tf_ros" exec = "static_transform_publisher" name = "goal1_turtle1" args = "--frame-id turtle1 --child-frame-id goal_back --x -1.2"/>
+    <!-- 4.监听坐标变换 -->
+    <node pkg = "py05_exercise" exec ="exer03_tf_listener_py" name = "listener_back">
+        <param name = "father_frame" value = "$(var turtle_back)"/>
+        <param name = "child_frame" value = "goal_back"/>
+
+
+    </node>
+</launch>
