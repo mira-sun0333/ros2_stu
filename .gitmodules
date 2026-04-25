@@ -1,0 +1,18 @@
+[submodule "src/Stage"]
+	path = src/Stage
+	url = https://github.com/damuxt/Stage.git
+[submodule "src/mycar/base/ros2_arduino_bridge"]
+	path = src/mycar/base/ros2_arduino_bridge
+	url = https://github.com/damuxt/ros2_arduino_bridge.git
+[submodule "src/mycar/base/ros2_stm32_bridge"]
+	path = src/mycar/base/ros2_stm32_bridge
+	url = https://github.com/damuxt/ros2_stm32_bridge.git
+[submodule "src/mycar/camera/usb_cam"]
+	path = src/mycar/camera/usb_cam
+	url = https://github.com/ros-drivers/usb_cam.git
+[submodule "src/mycar/laser/sllidar_ros2"]
+	path = src/mycar/laser/sllidar_ros2
+	url = https://github.com/Slamtec/sllidar_ros2.git
+[submodule "src/stage_ros2"]
+	path = src/stage_ros2
+	url = https://github.com/damuxt/stage_ros2.git

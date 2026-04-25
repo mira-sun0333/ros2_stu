@@ -1,0 +1,9 @@
+# 1.请求数据
+float64 goal
+---
+# 2.最终响应
+float64 x
+float64 y
+---
+# 3.连续反馈
+float64 distance
