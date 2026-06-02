@@ -79,7 +79,3 @@ ros2 run mycar_driver driver_test
 | `/encoder_values` | std_msgs/msg/UInt16MultiArray | 发布 | 编码器数据 |
 | `/odom` | nav_msgs/msg/Odometry | 发布 | 里程计 |
 | `/imu` | sensor_msgs/msg/Imu | 发布 | IMU数据 |
-
-## License
-
-MIT
