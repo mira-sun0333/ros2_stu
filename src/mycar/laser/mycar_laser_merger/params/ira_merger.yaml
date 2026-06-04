@@ -1,0 +1,6 @@
+/ira_merger_node:
+  ros_parameters:
+    destination_frame: base_link
+    cloud_destination_topic: /merged_cloud
+    scan_destination_topic: /scan_multi
+    laserscan_topic: /scan_up /scan_down

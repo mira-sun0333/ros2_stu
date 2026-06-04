@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# ROS 2 Workspace Source Script
+# 兼容 bash 和 zsh
+
+WORKSPACE_DIR="/home/iammira/ws_capa"
+ROS_DISTRO_DIR="/opt/ros/humble"
+SETUP_BASH="$WORKSPACE_DIR/install/setup.bash"
+SETUP_ZSH="$WORKSPACE_DIR/install/setup.zsh"
+
+# 清除所有可能干扰的环境变量
+unset AMENT_CURRENT_PREFIX COLCON_CURRENT_PREFIX AMENT_PREFIX_PATH COLCON_PREFIX_PATH
+
+# 修复 COLCON_CURRENT_PREFIX 路径
+for setup_file in "$SETUP_BASH" "$SETUP_ZSH"; do
+    if [ -f "$setup_file" ]; then
+        sed -i 's|COLCON_CURRENT_PREFIX="/home/iammira/ws_capa"|COLCON_CURRENT_PREFIX="/opt/ros/humble"|g' "$setup_file"
+    fi
+done
+
+# 使用 bash source workspace
+source "$SETUP_BASH"

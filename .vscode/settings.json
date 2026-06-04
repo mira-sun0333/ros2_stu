@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "/home/iammira/ws_capa/src/Stage",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash",
+            "icon": "terminal-bash"
+        }
+    }
+}

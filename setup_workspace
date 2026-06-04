@@ -1,0 +1,25 @@
+#!/bin/bash
+# ROS 2 Workspace Setup Script for Bash
+
+WORKSPACE_DIR="/home/iammira/ws_capa"
+ROS_DISTRO="/opt/ros/humble"
+
+# 清除所有可能干扰的环境变量
+unset AMENT_CURRENT_PREFIX COLCON_CURRENT_PREFIX AMENT_PREFIX_PATH COLCON_PREFIX_PATH
+
+# 修复 setup.bash 中的路径（如果需要）
+SETUP_FILE="$WORKSPACE_DIR/install/setup.bash"
+if grep -q 'COLCON_CURRENT_PREFIX="/home/iammira/ws_capa"' "$SETUP_FILE" 2>/dev/null; then
+    sed -i 's|COLCON_CURRENT_PREFIX="/home/iammira/ws_capa"|COLCON_CURRENT_PREFIX="/opt/ros/humble"|g' "$SETUP_FILE"
+fi
+
+# Source ROS 2 base
+source "$ROS_DISTRO/setup.bash"
+
+# 再次清除环境变量
+unset AMENT_CURRENT_PREFIX COLCON_CURRENT_PREFIX
+
+# Source workspace
+source "$WORKSPACE_DIR/install/local_setup.bash"
+
+echo "✅ ROS 2 工作空间已配置"

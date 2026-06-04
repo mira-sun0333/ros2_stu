@@ -1,0 +1,36 @@
+#!/bin/bash
+# ROS 2 Workspace Source Script - Debug Version
+
+WORKSPACE_DIR="/home/iammira/ws_capa"
+SETUP_FILE="$WORKSPACE_DIR/install/setup.bash"
+
+echo "=== Debug: Before unset ==="
+echo "AMENT_CURRENT_PREFIX=$AMENT_CURRENT_PREFIX"
+echo "COLCON_CURRENT_PREFIX=$COLCON_CURRENT_PREFIX"
+
+# 清除所有可能干扰的环境变量
+unset AMENT_CURRENT_PREFIX
+unset COLCON_CURRENT_PREFIX
+unset AMENT_PREFIX_PATH
+unset COLCON_PREFIX_PATH
+
+echo "=== Debug: After unset ==="
+echo "AMENT_CURRENT_PREFIX=$AMENT_CURRENT_PREFIX"
+echo "COLCON_CURRENT_PREFIX=$COLCON_CURRENT_PREFIX"
+
+# 修复 COLCON_CURRENT_PREFIX 路径（如果需要）
+if [ -f "$SETUP_FILE" ]; then
+    echo "=== Debug: Checking setup.bash ==="
+    if grep -q 'COLCON_CURRENT_PREFIX="/home/iammira/ws_capa"' "$SETUP_FILE"; then
+        echo "Found wrong path, fixing..."
+        sed -i 's|COLCON_CURRENT_PREFIX="/home/iammira/ws_capa"|COLCON_CURRENT_PREFIX="/opt/ros/humble"|g' "$SETUP_FILE"
+        echo "Fixed!"
+    else
+        echo "Path is correct or file was already fixed"
+    fi
+fi
+
+# Source setup.bash
+echo "=== Debug: Sourcing setup.bash ==="
+source "$SETUP_FILE"
+echo "=== Debug: Done ==="
